@@ -1,0 +1,156 @@
+/*-------------------- standard styles for websites --------------------*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*-------------------- nav styles --------------------*/
+
+nav {
+    background-color: transparent;
+}
+.nav {
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 0;
+    
+    
+}
+.navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    letter-spacing: 7px;
+}
+
+a.nav-link {
+    text-align:center;
+    letter-spacing: 4px;
+
+}
+
+.navbar, .navbar-toggler {
+    border:0;
+
+}
+
+button.navbar-toggler.second-button {
+    outline: none;
+}
+
+/*navbar icon animination credit to mdbootstrap.com*/
+.navbar-light .navbar-toggler {
+  border: transparent;
+  color: transparent;
+}
+
+.animated-icon2 {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon2 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+.animated-icon2 span {
+  background: #e3f2fd;
+}
+
+.animated-icon2 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon2 span:nth-child(2),
+.animated-icon2 span:nth-child(3) {
+  top: 10px;
+}
+
+.animated-icon2 span:nth-child(4) {
+  top: 20px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+
+/*-------------------- footer --------------------*/
+
+/*-------------------- landing page (home) --------------------*/
+
+/*-------------------- hero image --------------------*/
+
+.hero-image {
+    height: 100vh;
+    width: 100%;
+    background: url('../images/pinkSky.jpg') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items; center;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
