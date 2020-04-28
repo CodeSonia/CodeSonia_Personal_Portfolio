@@ -12,6 +12,8 @@ nav {
   background-color: rgba(255, 156, 218, 0.2);
   font-size: 1rem;
   padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   width: 100%;
   margin-bottom: 0;
 }
@@ -19,7 +21,6 @@ nav {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.5rem;
-  padding-left: 1rem;
   letter-spacing: 7px;
 }
 
@@ -35,6 +36,12 @@ a.nav-link {
 
 button.navbar-toggler.second-button {
   outline: none;
+}
+
+a.nav-link.btn {
+  background: linear-gradient(105deg, #c2649a, #8b4c70);
+  outline: none !important;
+  box-shadow: none;
 }
 
 /*navbar icon animination credit to mdbootstrap.com*/
