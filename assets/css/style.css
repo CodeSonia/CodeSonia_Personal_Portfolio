@@ -1,42 +1,40 @@
 /*-------------------- standard styles for websites --------------------*/
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
 }
 /*-------------------- nav styles --------------------*/
 
 nav {
-    background-color: transparent;
+  background-color: transparent;
 }
 .nav {
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 1rem;
-    width: 100%;
-    margin-bottom: 0;
-    
-    
+  background-color: rgba(255, 156, 218, 0.2);
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 0;
 }
 .navbar-brand {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    letter-spacing: 7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  letter-spacing: 7px;
 }
 
 a.nav-link {
-    text-align:center;
-    letter-spacing: 4px;
-
+  text-align: center;
+  letter-spacing: 4px;
 }
 
-.navbar, .navbar-toggler {
-    border:0;
-
+.navbar,
+.navbar-toggler {
+  border: 0;
 }
 
 button.navbar-toggler.second-button {
-    outline: none;
+  outline: none;
 }
 
 /*navbar icon animination credit to mdbootstrap.com*/
@@ -122,13 +120,18 @@ button.navbar-toggler.second-button {
   left: 50%;
 }
 
-
 /*-------------------- footer --------------------*/
 
 /*-------------------- landing page (home) --------------------*/
 
 /*-------------------- hero image --------------------*/
 
+img.landing-img {
+  padding-top: 8rem;
+  width: 700px;
+  height: auto;
+}
+/*
 .hero-image {
     height: 100vh;
     width: 100%;
@@ -154,3 +157,4 @@ button.navbar-toggler.second-button {
     background-color: rgba(0,0,0,0.5);
     z-index: 1;
 }
+*/
