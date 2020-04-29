@@ -14,10 +14,13 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <script
-      src="https://kit.fontawesome.com/c387654461.js"
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
-    ></script>
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -55,7 +58,7 @@
           <!-----------navbar links-------------------->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#home"
                 >Home <span class="sr-only">(current home page)</span></a
               >
             </li>
@@ -81,26 +84,41 @@
       <!--------------------------------------------Nav end-->
     </header>
 
-    <!--------------------------------------------hero image start-->
-    <section id="landingPage">
-      <div class="container">
-        <div class="row">
-          <div class="col-8">
-            <div class="col-4">
-              <img class="landing-img" src="assets/images/landPage.png" />
+    <!--------------------------------------------landing page-->
+
+    <section class="container-fluid" id="home">
+      <div class="row">
+        <div class="col-4 hero-text">
+          <h1 class="display-1 landName"><strong>Sonia Hussain</strong></h1>
+          <!--text animation from: https://codepen.io/yemon/pen/pWoROm edited for my use-->
+          <div class="container-animation">
+            <div id="flip">
+              <div><div>Hey there!</div></div>
+              <div><div>I am a Junior Stack Developer</div></div>
+              <div><div>Welcome to my portfolio</div></div>
             </div>
           </div>
-        </div>
-      </div>
+          <p class="text-muted intro-text">
+            I love to <strong>design</strong> & <strong>code</strong> things
+            into <strong>beautiful, interactive</strong> things for the user,
+            and most importantly, <strong><em>I love what I do.</em></strong>
+          </p>
 
-      <!--<div class="opaque-overlay"></div>
-      <div class="container-fluid hero-image">
-        <div class="row">
-          <div class="col-12"></div>
-          
+          <div class="social-links">
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook-f"></a>
+          </div>
+
+          <div>
+            <a class="btn-cv btn-success btn btn-lg" href="#" role="button">Download my CV</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <img class="col" src="/assets/images/landPage.png" />
         </div>
       </div>
-      -->
     </section>
 
     <footer></footer>

@@ -2,7 +2,60 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f1f1f1;
+  color: #313639;
 }
+
+.container-fluid {
+  margin-top: 100px;
+  padding-left: 46px;
+}
+
+.btn-cv {
+    margin-top: 20px; 
+
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*-------------------- fa icons --------------------*/
+
+.fa {
+    margin: 5px;
+    margin-left:0;
+    padding: 10px;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: #f1502f;
+    color: #fff;
+}
+
+.fa-linkedin {
+    background: #0e76a8;
+    color: #fff;
+}
+
+.fa-instagram {
+    background: #fb3958;
+    color: white;
+}
+
+.fa-facebook-f {
+    background: #3b5998;
+    color: white;
+}
+
 /*-------------------- nav styles --------------------*/
 
 nav {
@@ -42,6 +95,7 @@ a.nav-link.btn {
   background: linear-gradient(105deg, #c2649a, #8b4c70);
   outline: none !important;
   box-shadow: none;
+  border-radius: 100px;
 }
 
 /*navbar icon animination credit to mdbootstrap.com*/
@@ -129,39 +183,87 @@ a.nav-link.btn {
 
 /*-------------------- footer --------------------*/
 
-/*-------------------- landing page (home) --------------------*/
+/*------------------------------ home section */
+.container-animation{
+    margin:0;
+  
+}
 
+#flip {
+  height: 50px;
+  overflow: hidden;
+  font-size:20px;
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+
+#flip > div > div {
+  color: #fff;
+  text-align: center;
+  padding: 4px 12px;
+  height: 55px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background: #42c58a;
+}
+#flip div:first-child div {
+  background: #4ec7f3;
+}
+#flip div:last-child div {
+  background: #dc143c;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+.intro-text {
+    margin-top: 30px;
+    font-size: 20px;
+}
 /*-------------------- hero image --------------------*/
-
-img.landing-img {
-  padding-top: 8rem;
-  width: 700px;
-  height: auto;
-}
-/*
-.hero-image {
-    height: 100vh;
-    width: 100%;
-    background: url('../images/pinkSky.jpg') no-repeat bottom center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items; center;
-    z-index: 2;
-    overflow: hidden;
+.hero-img {
+  float: right;
+  margin-top: 100px;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
+.hero-text {
+    margin-top: 45px;
+    
 }
-*/
+
+.landName {
+    font-family: helvetica;
+    font-weight: 500;
+    color: #313639;
+}
