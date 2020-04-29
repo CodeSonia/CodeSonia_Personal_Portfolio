@@ -266,3 +266,17 @@ a.nav-link.btn {
     font-weight: 500;
     color: #313639;
 }
+
+.love {
+    color: #EA4492;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+/*------ about section ----*/
+
+#about {
+    height: 500px;
+    margin-top: 0px;
+    background-color: #8b4c70;
+}
