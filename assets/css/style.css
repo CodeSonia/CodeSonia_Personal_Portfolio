@@ -14,6 +14,12 @@ body {
     margin-top: 20px; 
     text-transform: uppercase;
     color: #fff;
+    background-color: #004E9A;
+}
+
+.role {
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
 }
 
 /*-------------------- fa icons --------------------*/
@@ -22,7 +28,7 @@ body {
     margin: 5px;
     margin-left:0;
     padding: 10px;
-    font-size: 15px;
+    font-size: 25px;
     height: auto;
     width: auto;
     text-align: center;
@@ -188,6 +194,27 @@ a.nav-link.btn {
   
 }
 
+.hero-text {
+    margin-top: 45px;
+    
+}
+
+.landName {
+    font-family: helvetica;
+    font-weight: 500;
+    color: #313639;
+}
+
+.intro-text {
+    font-size: 20px;
+}
+
+.love {
+    color: #c2649a;
+    text-decoration: underline;
+}
+
+
 #flip {
   height: 50px;
   overflow: hidden;
@@ -246,31 +273,10 @@ a.nav-link.btn {
   }
 }
 
-.intro-text {
-    margin-top: 30px;
-    font-size: 20px;
-}
 /*-------------------- hero image --------------------*/
 .hero-img {
   float: right;
   margin-top: 100px;
-}
-
-.hero-text {
-    margin-top: 45px;
-    
-}
-
-.landName {
-    font-family: helvetica;
-    font-weight: 500;
-    color: #313639;
-}
-
-.love {
-    color: #EA4492;
-    font-size: 1.5rem;
-    text-decoration: underline;
 }
 
 /*------ about section ----*/
