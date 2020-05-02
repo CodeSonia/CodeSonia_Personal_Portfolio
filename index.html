@@ -36,8 +36,9 @@
       <!---------------------- navbar start-------------------->
       <nav class="navbar navbar-light navbar-expand-lg nav mb-auto fixed-top">
         <!---------------------- navbar brand-------------------->
-        <a class="navbar-brand" href="#land">
-          <img class="logo"
+        <a class="navbar-brand ml-md-3" href="#land">
+          <img
+            class="logo"
             src="assets/images/code_sonia_logo.png"
             alt="CodeSonia logo"
           />
@@ -45,7 +46,7 @@
 
         <!---------------------- navbar collapse function -------------------->
         <button
-          class="navbar-toggler second-button"
+          class="navbar-toggler second-button clearfix"
           type="button"
           data-toggle="collapse"
           data-target="#navbarHeader"
@@ -59,9 +60,10 @@
         </button>
 
         <!----------navbar collapse content-->
-        <div class="collapse navbar-collapse" id="navbarHeader">
+        
+        <div class="collapse navbar-collapse float-right mr-md-3" id="navbarHeader">
           <!-----------navbar links-------------------->
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto float-right text-right">
             <li class="nav-item active">
               <a class="nav-link" href="#home"
                 >Home <span class="sr-only">(current home page)</span></a
@@ -80,7 +82,7 @@
               <a class="nav-link" href="#">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn" role="button" href="#">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -108,13 +110,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-
-    <script>
-      $(document).ready(function () {
-        $(".second-button").on("click", function () {
-          $(".animated-icon2").toggleClass("open");
-        });
-      });
-    </script>
+    <!---
+    <script src="offcanvas.js"></script> -->
   </body>
 </html>

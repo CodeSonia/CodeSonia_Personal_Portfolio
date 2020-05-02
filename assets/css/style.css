@@ -16,6 +16,7 @@ nav {
     background-color: #F4E0ED;
 }
 
+
 /*------------------navbar icon animination credit to mdbootstrap.com*/
 .navbar-light .navbar-toggler {
   border: transparent;
@@ -57,7 +58,7 @@ nav {
 }
 
 .animated-icon2 span {
-  background: linear-gradient(to right, #041b2d, #ea4492);
+  background: linear-gradient(to left, #041b2d, #ea4492);
 }
 
 .animated-icon2 span:nth-child(1) {
