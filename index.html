@@ -60,8 +60,11 @@
         </button>
 
         <!----------navbar collapse content-->
-        
-        <div class="collapse navbar-collapse float-right mr-md-3" id="navbarHeader">
+
+        <div
+          class="collapse navbar-collapse float-right mr-md-3"
+          id="navbarHeader"
+        >
           <!-----------navbar links-------------------->
           <ul class="navbar-nav ml-auto float-right text-right">
             <li class="nav-item active">
@@ -90,6 +93,50 @@
     </header>
 
     <!--------------------------------------------landing page-->
+    <section class="container-fluid" id="#home">
+      <div class="row">
+        <div class="col-md-12 mr-md-3 ml-md-3">
+    
+          <p class="p-job-role text-muted text-uppercase">Junior Developer</p>
+          <h1 class="display-5">Sonia Hussain</h1>
+          <div class="container-animation d-none">
+            <div id="flip">
+              <div>
+                <div>Hey there!</div>
+              </div>
+              <div>
+                <div>I am a Junior Stack Developer</div>
+              </div>
+              <div>
+                <div>Welcome to my portfolio</div>
+              </div>
+            </div>
+          </div>
+          <img class="home-bg" src="assets/images/landPage.png">
+          <div class="social-links">
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook-f"></a>
+          </div>
+
+          <div>
+            <a
+              class="btn-cv btn d-inline-flex justify-content-center"
+              href="assets/sonia's_cv.pdf"
+              target="_blank"
+              role="button"
+              >Download CV</a
+            >
+          </div>
+          
+          
+        </div>
+
+        
+        </div>
+      
+    </section>
 
     <footer></footer>
 
@@ -110,7 +157,12 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    <!---
-    <script src="offcanvas.js"></script> -->
+    <script>
+      $(document).ready(function () {
+        $(".second-button").on("click", function () {
+          $(".animated-icon2").toggleClass("open");
+        });
+      });
+    </script>
   </body>
 </html>

@@ -16,7 +16,58 @@ nav {
     background-color: #F4E0ED;
 }
 
+/*-------------------- fa icons --------------------*/
+.social-links {
+    margin-top: 220px;
+    text-align: center;
+}
+.fa {
+    margin: 5px;
+    margin-left:0;
+    padding: 10px;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+}
 
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: #f1502f;
+    color: #fff;
+}
+
+.fa-linkedin {
+    background: #0e76a8;
+    color: #fff;
+}
+
+.fa-instagram {
+    background: #fb3958;
+    color: white;
+}
+
+.fa-facebook-f {
+    background: #3b5998;
+    color: white;
+}
+
+/*--------------------------- button styles----------*/
+
+.btn-cv {
+    margin-top: 20px; 
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #004E9A;
+    text-align: center;
+    
+}
 /*------------------navbar icon animination credit to mdbootstrap.com*/
 .navbar-light .navbar-toggler {
   border: transparent;
@@ -98,4 +149,83 @@ nav {
   top: 11px;
   width: 0%;
   left: 50%;
+}
+
+/*----------------------------------Home--------*/
+
+.p-job-role {
+    margin-top: 100px;
+    font-size: 0.9rem;
+}
+
+.home-bg {
+    height:210px;
+    position: absolute;
+    z-index: -1;
+    top: 95px;
+    right: 7px;
+    left: 10px;
+    margin-top: 100px;
+}
+
+/*-- Home animation---*/
+
+#flip {
+  height: 30px;
+  overflow: hidden;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase; 
+  
+}
+
+#flip > div > div {
+  color: #fff;
+  text-align: center;
+  padding: 4px 12px;
+  height: 55px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background: #42c58a;
+
+}
+#flip div:first-child div {
+  background: #4ec7f3;
+}
+#flip div:last-child div {
+  background: #dc143c;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
 }
