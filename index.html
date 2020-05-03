@@ -32,10 +32,13 @@
   </head>
 
   <body>
+ 
     <header id="land">
-      <!---------------------- navbar start-------------------->
+
+      <!---------------------- Navbar Start-------------------->
+     
       <nav class="navbar navbar-light navbar-expand-lg nav mb-auto fixed-top">
-        <!---------------------- navbar brand-------------------->
+        <!---------------------- Navbar Brand-------------------->
         <a class="navbar-brand ml-md-3" href="#land">
           <img
             class="logo"
@@ -44,7 +47,7 @@
           />
         </a>
 
-        <!---------------------- navbar collapse function -------------------->
+        <!---------------------- Navbar Collapse Function -------------------->
         <button
           class="navbar-toggler second-button clearfix"
           type="button"
@@ -59,13 +62,10 @@
           </div>
         </button>
 
-        <!----------navbar collapse content-->
+        <!----------Navbar Collapse Content-->
 
-        <div
-          class="collapse navbar-collapse float-right mr-md-3"
-          id="navbarHeader"
-        >
-          <!-----------navbar links-------------------->
+        <div class="collapse navbar-collapse mr-md-3" id="navbarHeader">
+          <!-----------Navbar Links-------------------->
           <ul class="navbar-nav ml-auto float-right text-right">
             <li class="nav-item active">
               <a class="nav-link" href="#home"
@@ -86,56 +86,110 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
-            </li>
+            </li>  
           </ul>
         </div>
       </nav>
+  
     </header>
 
-    <!--------------------------------------------landing page-->
-    <section class="container-fluid" id="#home">
+
+
+    <!--------------------------------------------Landing Page-->
+    <section class="container" id="#home">
       <div class="row">
-        <div class="col-md-12 mr-md-3 ml-md-3">
-    
-          <p class="p-job-role text-muted text-uppercase">Junior Developer</p>
-          <h1 class="display-5">Sonia Hussain</h1>
-          <div class="container-animation d-none">
-            <div id="flip">
-              <div>
-                <div>Hey there!</div>
-              </div>
-              <div>
-                <div>I am a Junior Stack Developer</div>
-              </div>
-              <div>
-                <div>Welcome to my portfolio</div>
+        <!-- LEFT -->
+        <div class="col">
+          <!-- Name -->
+          <div class="row">
+            <div class="col">
+              <h1>Sonia Hussain</h1>
+            </div>
+          </div>
+
+          <!-- Animation / Welcome to my portfolio -->
+          <div class="row d-none d-lg-block">
+            <div class="col">
+              <div class="container-animation">
+                <div id="flip">
+                  <div>
+                    <div>Hey there!</div>
+                  </div>
+
+                  <div>
+                    <div>I am a Junior Stack Developer</div>
+                  </div>
+                  
+                  <div>
+                    <div>Welcome to my portfolio</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <img class="home-bg" src="assets/images/landPage.png">
-          <div class="social-links">
-            <a href="#" class="fa fa-github"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-facebook-f"></a>
+
+          <!-- Description -->
+          <div class="row d-none d-lg-block">
+            <div class="col">
+              <p class="lead">I love to design & code things into beatiful, interactive things for the user and most importantly, I love what   i do. 
+              </p>
+            </div>
           </div>
 
-          <div>
-            <a
-              class="btn-cv btn d-inline-flex justify-content-center"
-              href="assets/sonia's_cv.pdf"
-              target="_blank"
-              role="button"
-              >Download CV</a
-            >
+          <!-- Landing page Image (Mobile) -->
+          <div class="row d-lg-none .d-xl-block">
+            <div class="col">    
+              <img class="home-bg hidden-lg" src="assets/images/landPage.png" />  
+            </div>  
           </div>
-          
-          
+
+          <!-- Social media links -->
+          <div class="row">
+            <div class="col">
+              <ul class="social-links d-flex justify-content-center justify-content-lg-start">
+                <li>
+                  <a href="#" class="fa fa-github"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </li>
+
+                <li>
+                  <a href="#" class="fa fa-instagram"></a>
+                </li>
+            
+                <li>
+                  <a href="#" class="fa fa-facebook-f"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Download CV button -->
+          <div class="row">
+            <div class="col">
+              <a class="button btn-cv btn p-3 p-lg-2"
+                href="assets/sonia's_cv.pdf"
+                target="_blank"
+                role="button"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
         </div>
 
-        
+        <!-- Right -->
+        <div class="col-8 d-none d-lg-block">
+          <!-- Landing page Image (Desktop) -->
+          <div class="row">
+            <div class="col">    
+              <img class="home-bg" src="assets/images/landPage.png" />  
+            </div>  
+          </div>
         </div>
-      
+      </div>
     </section>
 
     <footer></footer>

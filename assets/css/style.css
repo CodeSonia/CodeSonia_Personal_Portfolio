@@ -5,6 +5,22 @@ body {
   color: #313639;
 }
 
+.container {
+  border: 1px solid pink;
+  margin-top: 100px;
+}
+
+ul.social-links {
+  list-style: none;
+  /* border: 1px solid red; */
+  padding: 0;
+}
+
+ul.social-links li {
+  display: inline;
+}
+
+
 /*--------------------- logo ----------------------------*/
 
 .logo {
@@ -17,10 +33,7 @@ nav {
 }
 
 /*-------------------- fa icons --------------------*/
-.social-links {
-    margin-top: 220px;
-    text-align: center;
-}
+
 .fa {
     margin: 5px;
     margin-left:0;
@@ -61,14 +74,12 @@ nav {
 /*--------------------------- button styles----------*/
 
 .btn-cv {
-    margin-top: 20px; 
-    text-transform: uppercase;
     color: #fff;
     background-color: #004E9A;
-    text-align: center;
-    
+    width: 150px;
+    /* margin-left: 2rem; */  
 }
-/*------------------navbar icon animination credit to mdbootstrap.com*/
+/*------------------navbar icon animination credit to mdbootstrap.com & styled to my own brand colours*/
 .navbar-light .navbar-toggler {
   border: transparent;
   color: transparent;
@@ -159,14 +170,17 @@ nav {
 }
 
 .home-bg {
-    height:210px;
-    position: absolute;
-    z-index: -1;
-    top: 95px;
-    right: 7px;
-    left: 10px;
+    width: 100%;
+    /* height: 240px; */
+    /* width: */
+    /* right: 0; */
+}
+
+.container-home{
     margin-top: 100px;
 }
+
+
 
 /*-- Home animation---*/
 
@@ -227,5 +241,35 @@ nav {
   }
   100% {
     margin-top: -270px;
+  }
+}
+
+/*------------------ Responsive typography ----------*/
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .btn-cv {
+    width: 100%;
   }
 }
