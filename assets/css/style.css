@@ -7,7 +7,8 @@ body {
 
 .container {
   border: 1px solid pink;
-  margin-top: 100px;
+  /*
+  margin-top: 100px;*/
 }
 
 ul.social-links {
@@ -176,18 +177,16 @@ nav {
     /* right: 0; */
 }
 
-.container-home{
-    margin-top: 100px;
+.home {
+  margin-top: 100px;
 }
-
-
 
 /*-- Home animation---*/
 
 #flip {
-  height: 30px;
+  height: 60px;
   overflow: hidden;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase; 
   
