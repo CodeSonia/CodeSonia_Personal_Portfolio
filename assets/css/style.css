@@ -72,6 +72,7 @@ nav {
     color: white;
 }
 
+
 /*--------------------------- button styles----------*/
 
 .btn-cv {
@@ -242,6 +243,20 @@ nav {
     margin-top: -270px;
   }
 }
+
+/*------------------ About  ----------*/
+#about {
+  background-color: #8b4c70;
+  color: #f1f1f1;
+}
+
+.card {
+  background-color: transparent;
+  border: 0;
+}
+
+
+
 
 /*------------------ Responsive typography ----------*/
 html {
