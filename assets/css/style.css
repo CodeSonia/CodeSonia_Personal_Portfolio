@@ -256,6 +256,55 @@ nav {
   border: 0;
 }
 
+
+/*-----------------------------Skills -------------*/
+
+#skills {
+  margin-top: 30px;
+}
+
+.progress-bar{
+  background: linear-gradient(to left, #004e9a, #ea4492);
+}
+
+@keyframes donut-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
+.svg-item {
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+}
+.donut-ring {
+  stroke: #EBEBEB;
+}
+
+.donut-segment {
+  animation: donut-chart-fill 1s reverse ease-in;
+  transform-origin: center;
+  stroke: #ea4492;
+}
+
+.donut-text {
+  font-family: Arial, Helvetica, sans-serif;
+  fill: #ea4492;
+}
+
+.donut-label {
+  font-size: 0.28em;
+  font-weight: 700;
+  line-height: 1;
+  fill: #000;
+  transform: translateY(0.25em);    
+}
+
+.donut-percent {
+  font-size: 0.5em;
+  fill: #ea4492;
+  line-height: 1;
+  transform: translateY(0.5em);
+}
 /*-----------------------------Footer-----------*/
 .footer {
   background-color: #522157;
