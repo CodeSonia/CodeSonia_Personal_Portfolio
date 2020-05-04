@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+  
   border: 1px solid pink;
   /*
   margin-top: 100px;*/
@@ -261,18 +262,20 @@ nav {
 
 #skills {
   margin-top: 30px;
+  
 }
 
 .progress-bar{
   background: linear-gradient(to left, #004e9a, #ea4492);
 }
 
+/*---------------------------Circle Donuts, credit from and amended to suit my style: https://codepen.io/sandersu/pen/gerEbM*/
+
 @keyframes donut-chart-fill {
   to { stroke-dasharray: 0 100; }
 }
 
 .svg-item {
-  width: 100px;
   height: 100px;
   font-size: 16px;
 }
@@ -280,11 +283,13 @@ nav {
   stroke: #EBEBEB;
 }
 
+
 .donut-segment {
   animation: donut-chart-fill 1s reverse ease-in;
   transform-origin: center;
   stroke: #ea4492;
 }
+
 
 .donut-text {
   font-family: Arial, Helvetica, sans-serif;
@@ -342,3 +347,4 @@ html {
     width: 100%;
   }
 }
+
