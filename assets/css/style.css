@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-  
   border: 1px solid pink;
   /*
   margin-top: 100px;*/
@@ -33,61 +32,59 @@ ul.social-links li {
 /*--------------------- logo ----------------------------*/
 
 .logo {
-    height: 2.5rem;
+  height: 2.5rem;
 }
 
 /*--------------------- nav styles -----------------------*/
 nav {
-    background-color: #F4E0ED;
+  background-color: #f4e0ed;
 }
 
 /*-------------------- fa icons --------------------*/
 
 .fa {
-    margin: 5px;
-    margin-left:0;
-    padding: 10px;
-    font-size: 15px;
-    height: auto;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 25%;
+  margin: 5px;
+  margin-left: 0;
+  padding: 10px;
+  font-size: 15px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25%;
 }
 
-
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-github {
-    background: #f1502f;
-    color: #fff;
+  background: #f1502f;
+  color: #fff;
 }
 
 .fa-linkedin {
-    background: #0e76a8;
-    color: #fff;
+  background: #0e76a8;
+  color: #fff;
 }
 
 .fa-instagram {
-    background: #fb3958;
-    color: white;
+  background: #fb3958;
+  color: white;
 }
 
 .fa-facebook-f {
-    background: #3b5998;
-    color: white;
+  background: #3b5998;
+  color: white;
 }
-
 
 /*--------------------------- button styles----------*/
 
 .btn-cv {
-    color: #fff;
-    background-color: #004E9A;
-    width: 150px;
-    /* margin-left: 2rem; */  
+  color: #fff;
+  background-color: #004e9a;
+  width: 150px;
+  /* margin-left: 2rem; */
 }
 /*------------------navbar icon animination credit to mdbootstrap.com & styled to my own brand colours*/
 .navbar-light .navbar-toggler {
@@ -175,15 +172,15 @@ nav {
 /*----------------------------------Home--------*/
 
 .p-job-role {
-    margin-top: 100px;
-    font-size: 0.9rem;
+  margin-top: 100px;
+  font-size: 0.9rem;
 }
 
 .home-bg {
-    width: 100%;
-    /* height: 240px; */
-    /* width: */
-    /* right: 0; */
+  width: 100%;
+  /* height: 240px; */
+  /* width: */
+  /* right: 0; */
 }
 
 .home {
@@ -197,8 +194,7 @@ nav {
   overflow: hidden;
   font-size: 20px;
   font-weight: bold;
-  text-transform: uppercase; 
-  
+  text-transform: uppercase;
 }
 
 #flip > div > div {
@@ -216,7 +212,6 @@ nav {
 
 #flip div div {
   background: #42c58a;
-
 }
 #flip div:first-child div {
   background: #4ec7f3;
@@ -264,22 +259,22 @@ nav {
   border: 0;
 }
 
-
 /*-----------------------------Skills -------------*/
 
 #skills {
   margin-top: 30px;
-  
 }
 
-.progress-bar{
+.progress-bar {
   background: linear-gradient(to left, #004e9a, #ea4492);
 }
 
 /*---------------------------Circle Donuts, credit from and amended to suit my style: https://codepen.io/sandersu/pen/gerEbM*/
 
 @keyframes donut-chart-fill {
-  to { stroke-dasharray: 0 100; }
+  to {
+    stroke-dasharray: 0 100;
+  }
 }
 
 .svg-item {
@@ -287,16 +282,14 @@ nav {
   font-size: 16px;
 }
 .donut-ring {
-  stroke: #EBEBEB;
+  stroke: #ebebeb;
 }
-
 
 .donut-segment {
   animation: donut-chart-fill 1s reverse ease-in;
   transform-origin: center;
   stroke: #ea4492;
 }
-
 
 .donut-text {
   font-family: Arial, Helvetica, sans-serif;
@@ -308,7 +301,7 @@ nav {
   font-weight: 700;
   line-height: 1;
   fill: #000;
-  transform: translateY(0.25em);    
+  transform: translateY(0.25em);
 }
 
 .donut-percent {
@@ -317,13 +310,18 @@ nav {
   line-height: 1;
   transform: translateY(0.5em);
 }
+
+/*----------------------------- Portfolio ---------*/
+
+.user-research-img {
+  width: 100%;
+}
 /*-----------------------------Footer-----------*/
 .footer {
   background-color: #522157;
   color: #f1f1f1;
   margin-top: 30px;
 }
-
 
 /*------------------ Responsive typography ----------*/
 html {
@@ -354,4 +352,3 @@ html {
     width: 100%;
   }
 }
-
