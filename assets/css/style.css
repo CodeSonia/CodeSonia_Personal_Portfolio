@@ -11,6 +11,10 @@ body {
   margin-top: 100px;*/
 }
 
+.img-size {
+  width: 100%;
+  
+}
 ul.social-links {
   list-style: none;
   /* border: 1px solid red; */
@@ -314,9 +318,10 @@ nav {
 
 }
 
-.user-research-img {
-  width: 100%;
-  
+/*-------------------------------Experience -----------*/
+
+.experience-img {
+  width: 100;
 }
 /*-----------------------------Footer-----------*/
 .footer {
