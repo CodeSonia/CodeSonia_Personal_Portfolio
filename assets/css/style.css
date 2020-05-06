@@ -251,7 +251,6 @@ nav {
 #about {
   background-color: #8b4c70;
   color: #f1f1f1;
-  margin-top: 30px;
 }
 
 .card {
@@ -260,10 +259,6 @@ nav {
 }
 
 /*-----------------------------Skills -------------*/
-
-#skills {
-  margin-top: 30px;
-}
 
 .progress-bar {
   background: linear-gradient(to left, #004e9a, #ea4492);
@@ -313,8 +308,15 @@ nav {
 
 /*----------------------------- Portfolio ---------*/
 
+#portfolio {
+  /*background-color: #91a3b4;*/
+  background-color: #cca9bd;
+
+}
+
 .user-research-img {
   width: 100%;
+  
 }
 /*-----------------------------Footer-----------*/
 .footer {
