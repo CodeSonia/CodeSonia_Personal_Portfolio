@@ -340,15 +340,15 @@ nav {
   border-radius: 1rem;
   
 }
-/*--------Experience Timeline --------*/
+/*-------- Timeline --------*/
 
-.experience-timeline {
+.timeline {
   list-style-type: none;
   position: relative;
 }
 
 /*verticle line*/
-.experience-timeline:before {
+.timeline:before {
   content: "";
   background: #17a2b8;
   display: inline-block;
@@ -359,7 +359,7 @@ nav {
   z-index: 400;
   border-radius: 1rem;
 }
-.experience-item {
+.timeline-item {
   margin: 20px 0;
 }
 
@@ -374,7 +374,7 @@ nav {
 }
 
 /*circle*/
-.experience-item::before {
+.timeline-item::before {
   content: " ";
   background: #e4dfd9;
   display: inline-block;
@@ -388,6 +388,9 @@ nav {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.timeline-purple {
+  background-color: #8b4c70;
+}
 /*-----------------------------Footer-----------*/
 .footer {
   background-color: #522157;
