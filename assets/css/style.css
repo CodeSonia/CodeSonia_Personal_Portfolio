@@ -24,6 +24,7 @@ ul.social-links li {
   display: inline;
 }
 
+/*
 .col {
   border: 1px solid blue;
 }
@@ -438,9 +439,15 @@ div .fa-paper-plane {
   font-size: 2.5rem;
   text-align: center;
   color: #c2649a;
-  
 }
-/*-----------------------------Footer-----------*/
+
+
+.form-control:focus{
+  border: 3px solid #c2649a;
+  box-shadow: none;
+  outline: 0 !important;
+}
+/*-----------------------------Contact Modal-----------*/
 .modal-header {
   background-color: #c2649a;
   color: #ffffff;
