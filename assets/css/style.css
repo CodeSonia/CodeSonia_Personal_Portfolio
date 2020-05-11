@@ -477,11 +477,21 @@ div .fa-paper-plane {
   margin-top: 30px;
 }
 
-/*------------------ Responsive typography ----------*/
+/*------------------ Media Queries ----------*/
 
 /* Tablet */
 @media (max-width: 992px) {
   .btn-cv {
     width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .portfolio-img {
+    width: 60%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
   }
 }
