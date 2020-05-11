@@ -465,6 +465,11 @@ div .fa-paper-plane {
   color: #ffffff;
 }
 
+.modal-footer button {
+  background-color: #c2649a;
+  color: white;
+}
+
 /*-----------------------------Footer-----------*/
 .footer {
   background-color: #522157;
