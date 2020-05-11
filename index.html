@@ -26,8 +26,11 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-		type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
@@ -76,22 +79,34 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#about">About</a>
+              <a class="nav-link hvr-underline-from-center" href="#about"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#skills">Skills</a>
+              <a class="nav-link hvr-underline-from-center" href="#skills"
+                >Skills</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#portfolio">Portfolio</a>
+              <a class="nav-link hvr-underline-from-center" href="#portfolio"
+                >Portfolio</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#experience">Experience</a>
+              <a class="nav-link hvr-underline-from-center" href="#experience"
+                >Experience</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#education">Education</a>
+              <a class="nav-link hvr-underline-from-center" href="#education"
+                >Education</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link hvr-underline-from-center" href="#contact">Contact</a>
+              <a class="nav-link hvr-underline-from-center" href="#contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -196,6 +211,7 @@
               </a>
             </div>
           </div>
+          
         </div>
 
         <!-- Right -->
@@ -217,7 +233,7 @@
     <!-- About Section -->
 
     <section class="container about mt-5" id="about">
-      <p class="h4 text-center py-4">About</p>
+      <h4 class="text-center py-4">About</h4>
 
       <!--Left about-->
       <div class="row">
@@ -366,7 +382,7 @@
               <div class="row">
                 <!--1st circle-->
                 <div class="col">
-                  <div class="svg-item">
+                  <div class="svg-item hvr-float">
                     <svg
                       width="100%"
                       height="100%"
@@ -416,7 +432,7 @@
 
                 <!--2nd circle-->
                 <div class="col">
-                  <div class="svg-item">
+                  <div class="svg-item hvr-float">
                     <svg
                       width="100%"
                       height="100%"
@@ -465,7 +481,7 @@
                 </div>
                 <!--3rd circle-->
                 <div class="col d-none d-md-block">
-                  <div class="svg-item">
+                  <div class="svg-item hvr-float">
                     <svg
                       width="100%"
                       height="100%"
@@ -516,7 +532,7 @@
               <div class="row">
                 <!--1st circle-->
                 <div class="col">
-                  <div class="svg-item">
+                  <div class="svg-item hvr-float">
                     <svg
                       width="100%"
                       height="100%"
@@ -566,7 +582,7 @@
 
                 <!--2nd circle-->
                 <div class="col">
-                  <div class="svg-item">
+                  <div class="svg-item hvr-float">
                     <svg
                       width="100%"
                       height="100%"
@@ -615,7 +631,7 @@
                 </div>
                 <!--3rd circle-->
                 <div class="col d-none d-md-block">
-                  <div class="svg-item">
+                  <div class="svg-item hvr-float">
                     <svg
                       width="100%"
                       height="100%"
@@ -1287,9 +1303,7 @@
                   <div class="fa fa-paper-plane"></div>
                 </div>
                 <form>
-                
                   <div class="col mb-2">
-                  
                     <input
                       type="text"
                       name="name"
@@ -1298,9 +1312,8 @@
                       placeholder="Your name"
                       required
                     />
-                    
                   </div>
-                
+
                   <div class="col mb-2">
                     <input
                       type="email"
@@ -1351,10 +1364,15 @@
             </button>
           </div>
           <div class="modal-body">
-            <p>Thanks for sending your message, I shall get in touch with you within 1-2 days!</p>
+            <p>
+              Thanks for sending your message, I shall get in touch with you
+              within 1-2 days!
+            </p>
           </div>
           <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Close
+            </button>
           </div>
         </div>
       </div>
@@ -1457,15 +1475,13 @@
     </script>
 
     <!-- Form JS credit to mentor Dick -->
-    
-      
-       <script>
-        $('#contact-form').submit(function(e) {
-            e.preventDefault();
-            $('#staticBackdrop').modal('show');
-            $('#contact-form')[0].reset();
-        });
+
+    <script>
+      $("#contact-form").submit(function (e) {
+        e.preventDefault();
+        $("#staticBackdrop").modal("show");
+        $("#contact-form")[0].reset();
+      });
     </script>
-   
   </body>
 </html>
