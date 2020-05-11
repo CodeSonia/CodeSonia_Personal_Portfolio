@@ -44,7 +44,18 @@ nav {
   background-color: #f4e0ed;
 }
 
+.nav-link {
+  letter-spacing: 0.1rem;
+}
 
+.hvr-underline-from-center:before {
+  background: #8b4c70;
+}
+
+.hvr-underline-from-center:after {
+  background:  #8b4c70;
+  
+}
 /*-------------------- fa icons --------------------*/
 
 .fa {
