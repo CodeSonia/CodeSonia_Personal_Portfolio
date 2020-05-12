@@ -521,16 +521,33 @@ div .fa-paper-plane {
   #home {
     margin-top: 60px;
   }
+  .tech-skills,
+  .soft-skills,
+  .portfolio-right,
+  .portfolio-left {
+    margin: 1rem !important;
+  }
 }
 
 /* Tablet */
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 769px) {
   .btn-cv {
     width: 100%;
   }
   .progress{
     margin-bottom: 0.4rem;
   }
+  .title-role {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .tech-skills,
+  .soft-skills,
+  .portfolio-right,
+  .portfolio-left {
+    margin-left: 0 !important;
+  }
+
 }
 
 @media (max-width: 992px) {
