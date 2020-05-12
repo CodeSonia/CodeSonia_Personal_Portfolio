@@ -510,10 +510,26 @@ div .fa-paper-plane {
 
 /*------------------ Media Queries ----------*/
 
+/* Mobile */
+
+@media (max-width: 576px) {
+  .title-role {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  #home {
+    margin-top: 60px;
+  }
+}
+
 /* Tablet */
 @media (max-width: 992px) {
   .btn-cv {
     width: 100%;
+  }
+  .progress{
+    margin-bottom: 0.4rem;
   }
 }
 
