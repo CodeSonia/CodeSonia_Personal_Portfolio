@@ -24,6 +24,9 @@ ul.social-links li {
   display: inline;
 }
 
+a {
+  color: transparent;
+}
 /*
 .col {
   border: 1px solid blue;
@@ -329,6 +332,15 @@ nav {
   background-color: #cca9bd;
 }
 
+.card-icon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: #9589C1;
+}
+
+.card-title {
+  font-weight: 
+}
 
 /*-------------------------------Experience -----------*/
 
