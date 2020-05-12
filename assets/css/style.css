@@ -65,16 +65,18 @@ nav {
   margin: 5px;
   margin-left: 0;
   padding: 10px;
-  font-size: 15px;
   height: auto;
   width: auto;
   text-align: center;
   text-decoration: none;
   border-radius: 25%;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: #9589C1;
 }
 
 .fa:hover {
-  opacity: 0.7;
+  background: #c2649a;
 }
 
 .fa-github {
@@ -95,6 +97,10 @@ nav {
 .fa-facebook-f {
   background: #3b5998;
   color: white;
+}
+
+.fa-paper-plane {
+  background: none;
 }
 /*--------------------------- button styles----------*/
 
@@ -330,16 +336,6 @@ nav {
 #portfolio {
   /*background-color: #91a3b4;*/
   background-color: #cca9bd;
-}
-
-.card-icon {
-  font-size: 1.5rem;
-  color: #ffffff;
-  background: #9589C1;
-}
-
-.card-title {
-  font-weight: 
 }
 
 /*-------------------------------Experience -----------*/
