@@ -32,7 +32,6 @@ h4 {
   letter-spacing: 0.1rem;
 }
 
-
 /*--------------------- logo ----------------------------*/
 
 .logo {
@@ -53,8 +52,7 @@ nav {
 }
 
 .hvr-underline-from-center:after {
-  background:  #8b4c70;
-  
+  background: #8b4c70;
 }
 /*-------------------- fa icons --------------------*/
 
@@ -69,7 +67,7 @@ nav {
   border-radius: 25%;
   font-size: 1.5rem;
   color: #ffffff;
-  background: #9589C1;
+  background: #9589c1;
 }
 
 .fa:hover {
@@ -106,7 +104,7 @@ nav {
 .block {
   width: 70px;
   height: 5px;
-  border:0;
+  border: 0;
   background-color: #ea4492;
 }
 
@@ -384,12 +382,10 @@ nav {
   cursor: pointer;
   font-size: 15px;
   border-radius: 1rem;
-  
 }
 
-.read:hover{
+.read:hover {
   color: white;
-  
 }
 /*-------- Timeline --------*/
 
@@ -455,26 +451,24 @@ nav {
 */
 
 #contact {
-  background-image: url('../images/vector_background.jpg');
+  background-image: url("../images/vector_background.jpg");
   width: 100%;
   z-index: -400;
   background-size: cover;
-  background-color: rgba(255,255,255,0.8);
-    background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
 }
-*/
-
-.form-width{
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 85%;
+*/ .form-width {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 85%;
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #c2649a;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #c2649a;
 }
 
 div .fa-paper-plane {
@@ -483,8 +477,7 @@ div .fa-paper-plane {
   color: #c2649a;
 }
 
-
-.form-control:focus{
+.form-control:focus {
   border: 3px solid #c2649a;
   box-shadow: none;
   outline: 0 !important;
@@ -512,15 +505,19 @@ div .fa-paper-plane {
 
 /* Mobile */
 
-@media (max-width: 576px) {
+@media (max-width: 766px) {
   .title-role {
     font-size: 1.2rem;
     margin-top: 1rem;
   }
-  
+
+  .progress {
+    margin-bottom: 0.4rem;
+  }
   #home {
     margin-top: 60px;
   }
+
   .tech-skills,
   .soft-skills,
   .portfolio-right,
@@ -532,9 +529,9 @@ div .fa-paper-plane {
 /* Tablet */
 @media (min-width: 768px) and (max-width: 769px) {
   .btn-cv {
-    width: 100%;
+    text-align: center;
   }
-  .progress{
+  .progress {
     margin-bottom: 0.4rem;
   }
   .title-role {
@@ -547,15 +544,51 @@ div .fa-paper-plane {
   .portfolio-left {
     margin-left: 0 !important;
   }
-
-}
-
-@media (max-width: 992px) {
   .portfolio-img {
     width: 60%;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
- 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+  .portfolio-img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .title-role {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  #flip {
+    font-size: 15px;
+  }
+
+  .lead {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  .fa-github,
+  .fa-linkedin,
+  .fa-instagram,
+  .fa-facebook-square {
+    font-size: 20px;
+    margin-top: 12px;
   }
 }
