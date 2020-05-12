@@ -27,14 +27,11 @@ ul.social-links li {
 a {
   color: transparent;
 }
-/*
-.col {
-  border: 1px solid blue;
+
+h4 {
+  letter-spacing: 0.1rem;
 }
 
-.row {
-  border: 1px purple;
-}
 
 /*--------------------- logo ----------------------------*/
 
@@ -79,6 +76,7 @@ nav {
   background: #c2649a;
 }
 
+/*
 .fa-github {
   background: #f1502f;
   color: #fff;
@@ -94,13 +92,37 @@ nav {
   color: white;
 }
 
-.fa-facebook-f {
+.fa-facebook-square {
   background: #3b5998;
   color: white;
 }
-
+*/
 .fa-paper-plane {
   background: none;
+}
+
+/*--------------------------- Block ----------*/
+
+.block {
+  width: 70px;
+  height: 5px;
+  border:0;
+  background-color: #ea4492;
+}
+
+.block-short {
+  width: 50px;
+}
+.block-light {
+  background-color: #e4dfd9;
+}
+
+.block-blue {
+  background-color: #428cd4;
+}
+
+.block-purple {
+  background-color: #8b4c70;
 }
 /*--------------------------- button styles----------*/
 
