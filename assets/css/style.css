@@ -1,4 +1,8 @@
 /*-------------------- standard styles for websites --------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f1f1f1;
@@ -74,27 +78,6 @@ nav {
   background: #c2649a;
 }
 
-/*
-.fa-github {
-  background: #f1502f;
-  color: #fff;
-}
-
-.fa-linkedin {
-  background: #0e76a8;
-  color: #fff;
-}
-
-.fa-instagram {
-  background: #fb3958;
-  color: white;
-}
-
-.fa-facebook-square {
-  background: #3b5998;
-  color: white;
-}
-*/
 .fa-paper-plane {
   background: none;
 }
@@ -128,7 +111,10 @@ nav {
   color: #fff;
   background-color: #004e9a;
   width: 150px;
-  /* margin-left: 2rem; */
+}
+
+.read:hover {
+  background: #c2649a;
 }
 /*------------------navbar icon animination credit to mdbootstrap.com & styled to my own brand colours*/
 .navbar-light .navbar-toggler {
@@ -235,7 +221,7 @@ nav {
 /*-- Home animation---*/
 
 #flip {
-  height: 60px;
+  height: 45px;
   overflow: hidden;
   font-size: 20px;
   font-weight: bold;
@@ -458,7 +444,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
 }
-*/ .form-width {
+ .form-width {
   padding-top: 10px;
   margin: 0 auto;
   max-width: 85%;
@@ -501,7 +487,20 @@ div .fa-paper-plane {
   margin-top: 30px;
 }
 
+
 /*------------------ Media Queries ----------*/
+
+/* Standard Styles */
+
+@media (min-width: 568px){
+  .tech-skills,
+  .soft-skills,
+  .portfolio-right,
+  .portfolio-left {
+    margin-left: 0 !important;
+  }
+}
+
 
 /* Mobile */
 
@@ -518,12 +517,6 @@ div .fa-paper-plane {
     margin-top: 60px;
   }
 
-  .tech-skills,
-  .soft-skills,
-  .portfolio-right,
-  .portfolio-left {
-    margin: 1rem !important;
-  }
 }
 
 /* Tablet */
@@ -538,12 +531,7 @@ div .fa-paper-plane {
     font-size: 1.5rem;
     margin-top: 1rem;
   }
-  .tech-skills,
-  .soft-skills,
-  .portfolio-right,
-  .portfolio-left {
-    margin-left: 0 !important;
-  }
+  
   .portfolio-img {
     width: 60%;
     display: block;
@@ -566,29 +554,53 @@ div .fa-paper-plane {
     margin-right: auto;
   }
 
-  .nav-link {
-    font-size: 14px;
-  }
-
   .title-role {
     font-size: 1.3rem;
     margin-top: 1rem;
   }
 
-  #flip {
-    font-size: 15px;
-  }
 
   .lead {
     font-size: 16px;
     margin-top: 12px;
   }
 
+#flip {
+  font-size: 15px;
+}
   .fa-github,
   .fa-linkedin,
   .fa-instagram,
   .fa-facebook-square {
     font-size: 20px;
     margin-top: 12px;
+  }
+
+}
+
+@media (min-width: 1025px) {
+  .title-role {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+  .lead {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #flip {
+  font-size: 15px;
+}
+ 
+  .name {
+    font-size: 4.5rem;
+    
+  }
+  .fa-github,
+  .fa-linkedin,
+  .fa-instagram,
+  .fa-facebook-square {
+    font-size: 15px;
+    margin-top: 0px;
   }
 }
