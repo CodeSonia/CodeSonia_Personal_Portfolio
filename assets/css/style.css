@@ -221,11 +221,13 @@ nav {
   border-radius: 1rem;
   text-align: center;
   position: relative;
+  transition-duration: 0.4s;
 }
 
 .standard-button:hover {
   background: #a75784;
   color: #ffffff;
+
 }
 
 /*-- Home animation---*/
