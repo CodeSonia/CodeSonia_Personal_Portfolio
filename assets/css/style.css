@@ -105,17 +105,7 @@ nav {
 .block-purple {
   background-color: #8b4c70;
 }
-/*--------------------------- button styles----------*/
 
-.btn-cv {
-  color: #fff;
-  background-color: #004e9a;
-  width: 150px;
-}
-
-.read:hover {
-  background: #c2649a;
-}
 /*------------------navbar icon animination credit to mdbootstrap.com & styled to my own brand colours*/
 .navbar-light .navbar-toggler {
   border: transparent;
@@ -218,6 +208,26 @@ nav {
   margin-top: 100px;
 }
 
+.standard-button  {
+  margin-top: 15px;
+  display: block;
+  background: linear-gradient(105deg, #ea4492, #522157);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.standard-button:hover {
+  background: #a75784;
+  color: #ffffff;
+}
+
 /*-- Home animation---*/
 
 #flip {
@@ -242,13 +252,13 @@ nav {
 }
 
 #flip div div {
-  background: #42c58a;
+  background: #ea4492;
 }
 #flip div:first-child div {
-  background: #4ec7f3;
+  background: #428cd4;
 }
 #flip div:last-child div {
-  background: #dc143c;
+  background: #c2649a;
 }
 
 @keyframes show {
@@ -444,7 +454,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
 }
- .form-width {
+.form-width {
   padding-top: 10px;
   margin: 0 auto;
   max-width: 85%;
@@ -487,12 +497,15 @@ div .fa-paper-plane {
   margin-top: 30px;
 }
 
-
+.footer-button {
+  background: #428cd4;
+  display: inline-block;
+}
 /*------------------ Media Queries ----------*/
 
 /* Standard Styles */
 
-@media (min-width: 568px){
+@media (min-width: 568px) {
   .tech-skills,
   .soft-skills,
   .portfolio-right,
@@ -500,7 +513,6 @@ div .fa-paper-plane {
     margin-left: 0 !important;
   }
 }
-
 
 /* Mobile */
 
@@ -516,14 +528,10 @@ div .fa-paper-plane {
   #home {
     margin-top: 60px;
   }
-
 }
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 769px) {
-  .btn-cv {
-    text-align: center;
-  }
   .progress {
     margin-bottom: 0.4rem;
   }
@@ -531,7 +539,7 @@ div .fa-paper-plane {
     font-size: 1.5rem;
     margin-top: 1rem;
   }
-  
+
   .portfolio-img {
     width: 60%;
     display: block;
@@ -546,7 +554,7 @@ div .fa-paper-plane {
   }
 }
 
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 770px) and (max-width: 1199px) {
   .portfolio-img {
     width: 100%;
     display: block;
@@ -557,50 +565,58 @@ div .fa-paper-plane {
   .title-role {
     font-size: 1.3rem;
     margin-top: 1rem;
+    margin-bottom: 0;
   }
-
+  .name {
+    font-size: 4rem;
+  }
 
   .lead {
     font-size: 16px;
-    margin-top: 12px;
-  }
-
-#flip {
-  font-size: 15px;
-}
-  .fa-github,
-  .fa-linkedin,
-  .fa-instagram,
-  .fa-facebook-square {
-    font-size: 20px;
-    margin-top: 12px;
-  }
-
-}
-
-@media (min-width: 1025px) {
-  .title-role {
-    font-size: 1.4rem;
     margin-top: 1rem;
-  }
-  .lead {
-    font-size: 20px;
-    margin-top: 20px;
+    margin-bottom: 0;
   }
 
   #flip {
-  font-size: 15px;
-}
- 
-  .name {
-    font-size: 4.5rem;
-    
+    font-size: 15px;
   }
   .fa-github,
   .fa-linkedin,
   .fa-instagram,
   .fa-facebook-square {
     font-size: 15px;
-    margin-top: 0px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-role {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+  .lead {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  #flip {
+    font-size: 15px;
+  }
+
+  .name {
+    font-size: 4.5rem;
+  }
+
+  .fa-github,
+  .fa-linkedin,
+  .fa-instagram,
+  .fa-facebook-square {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+
+  .standard-button {
+    margin-top: 0.3rem;
   }
 }
