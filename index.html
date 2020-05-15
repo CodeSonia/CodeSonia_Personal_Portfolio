@@ -52,6 +52,8 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
+    <link rel="stylesheet" type="text/css" href="assets/css/dark.css" />
+
     <title>CodeSonia | Junior Full Stack Developer</title>
   </head>
 
@@ -139,6 +141,9 @@
 
     <!-- Landing Page -->
     <section class="container home" id="home">
+    <div class="switch">Dark mode:              
+        <span class="inner-switch">OFF</span>
+    </div>
       <div class="row">
         <!-- LEFT -->
         <div class="col">
@@ -1436,6 +1441,7 @@
                 </div>
                 <form>
                   <div class="col mb-2">
+                  
                     <input
                       type="text"
                       name="name"
@@ -1444,6 +1450,7 @@
                       placeholder="Your name"
                       required
                     />
+                  
                   </div>
 
                   <div class="col mb-2">
@@ -1594,8 +1601,6 @@
         });
       });
     </script>
-    
-   
 
     
     <!--Read More JS credit to https://codingartistweb.com/2020/04/read-more-read-less/-->
@@ -1616,11 +1621,25 @@
     <!-- Form JS credit to mentor Dick -->
 
     <script>
-      $("#contact-form").submit(function (e) {
-        e.preventDefault();
-        $("#staticBackdrop").modal("show");
-        $("#contact-form")[0].reset();
-      });
+        $('#contact-form').submit(function(e) {
+            e.preventDefault();
+            $('#staticBackdrop').modal('show');
+            $('#contact-form')[0].reset();
+        });
+    </script>
+
+<!-- Credit to this article in showing me how to implement the dark mode feature https://www.developerdrive.com/css-dark-mode/-->
+    <script>
+    $( ".inner-switch" ).on("click", function() {
+    if( $( "body" ).hasClass( "dark" )) {
+      $( "body" ).removeClass( "dark" );
+      $( ".inner-switch" ).text( "OFF" );
+    } else {
+      $( "body" ).addClass( "dark" );
+      $( ".inner-switch" ).text( "ON" );
+    }
+});
+    
     </script>
   </body>
 </html>

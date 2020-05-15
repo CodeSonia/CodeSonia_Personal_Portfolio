@@ -221,7 +221,7 @@ nav {
   border-radius: 1rem;
   text-align: center;
   position: relative;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 
 .standard-button:hover {
@@ -635,4 +635,6 @@ div .fa-paper-plane {
     height: 295px;
   }
 }
+
+
 
