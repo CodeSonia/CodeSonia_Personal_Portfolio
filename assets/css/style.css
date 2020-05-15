@@ -230,6 +230,10 @@ nav {
 
 }
 
+.title-role {
+  letter-spacing: 0.15rem;
+}
+
 /*-- Home animation---*/
 
 #flip {
@@ -573,9 +577,9 @@ div .fa-paper-plane {
     font-size: 4rem;
   }
 
-  .lead {
-    font-size: 16px;
-    margin-top: 1rem;
+  .intro-text {
+    font-size: 15px;
+    margin-top: 0.5rem;
     margin-bottom: 0;
   }
 
@@ -602,7 +606,7 @@ div .fa-paper-plane {
     font-size: 1.4rem;
     margin-top: 1rem;
   }
-  .lead {
+  .intro-text {
     font-size: 18px;
     margin-top: 20px;
   }
