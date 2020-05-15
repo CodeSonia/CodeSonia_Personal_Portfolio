@@ -61,8 +61,10 @@
     <header id="land">
       <!-- Navbar Starts -->
 
-      <nav class="navbar navbar-light navbar-expand-lg nav mb-auto fixed-top">
-        <div class="container">
+      <nav
+        class="navbar navbar-light navbar-expand-lg nav mb-auto fixed-top dark-navbar"
+      >
+        <div class="container dark-container">
           <!-- Navbar Brand -->
           <a class="navbar-brand ml-md-3" href="#land">
             <img
@@ -97,7 +99,7 @@
                   >Home <span class="sr-only">(current home page)</span></a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item dark-nav">
                 <a class="nav-link hvr-underline-from-center" href="#about"
                   >About</a
                 >
@@ -141,9 +143,10 @@
 
     <!-- Landing Page -->
     <section class="container home" id="home">
-    <div class="switch">Dark mode:              
+      <div class="switch">
+        Dark mode:
         <span class="inner-switch">OFF</span>
-    </div>
+      </div>
       <div class="row">
         <!-- LEFT -->
         <div class="col">
@@ -185,9 +188,10 @@
           <div class="row d-none d-lg-block">
             <div class="col">
               <p class="text-muted intro-text mt-3">
-               I love to <strong>design</strong> & <strong>code</strong> things
-                    into <strong>beautiful, interactive</strong> websites for the user,
-                    and most importantly, I <strong class="love"><em>love</em></strong> what I do.
+                I love to <strong>design</strong> & <strong>code</strong> things
+                into <strong>beautiful, interactive</strong> websites for the
+                user, and most importantly, I
+                <strong class="love"><em>love</em></strong> what I do.
               </p>
             </div>
           </div>
@@ -1441,7 +1445,6 @@
                 </div>
                 <form>
                   <div class="col mb-2">
-                  
                     <input
                       type="text"
                       name="name"
@@ -1450,7 +1453,6 @@
                       placeholder="Your name"
                       required
                     />
-                  
                   </div>
 
                   <div class="col mb-2">
@@ -1602,7 +1604,6 @@
       });
     </script>
 
-    
     <!--Read More JS credit to https://codingartistweb.com/2020/04/read-more-read-less/-->
     <script>
       $(document).ready(function () {
@@ -1621,25 +1622,40 @@
     <!-- Form JS credit to mentor Dick -->
 
     <script>
-        $('#contact-form').submit(function(e) {
-            e.preventDefault();
-            $('#staticBackdrop').modal('show');
-            $('#contact-form')[0].reset();
-        });
+      $("#contact-form").submit(function (e) {
+        e.preventDefault();
+        $("#staticBackdrop").modal("show");
+        $("#contact-form")[0].reset();
+      });
     </script>
 
-<!-- Credit to this article in showing me how to implement the dark mode feature https://www.developerdrive.com/css-dark-mode/-->
+    <!-- Credit to this article in showing me how to implement the dark mode feature https://www.developerdrive.com/css-dark-mode/-->
     <script>
-    $( ".inner-switch" ).on("click", function() {
-    if( $( "body" ).hasClass( "dark" )) {
-      $( "body" ).removeClass( "dark" );
-      $( ".inner-switch" ).text( "OFF" );
-    } else {
-      $( "body" ).addClass( "dark" );
-      $( ".inner-switch" ).text( "ON" );
-    }
-});
-    
+      $(".inner-switch").on("click", function () {
+        if ($("html").hasClass("dark")) {
+          $("html").removeClass("dark");
+          $(".inner-switch").text("OFF");
+        } else {
+          $("html").addClass("dark");
+          $(".inner-switch").text("ON");
+          // Get HTML head element
+          var head = document.getElementsByTagName("HEAD")[0];
+
+//Credit to Stack Overflow to help solve the issue of linking my dark stylesheet for the above jascript function
+          // Create new link Element
+          var link = document.createElement("link");
+
+          // set the attributes for link element
+          link.rel = "stylesheet";
+
+          link.type = "text/css";
+
+          link.href = "dark.css";
+
+          // Append link element to HTML head
+          head.appendChild(link);
+        }
+      });
     </script>
   </body>
 </html>

@@ -1,22 +1,76 @@
 .dark,
-.dark * {
-    background-color: #222;
-    color: #e6e6e6;
-    border-color: #e6e6e6;
+.dark body {
+  background-color: #222;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
 }
 
+.dark,
+.dark #home .container {
+  border: none;
+}
+.dark,
+.dark .container {
+  border: none;
+}
+
+/* Nav */
+.dark,
+.dark nav {
+  background-color: #222;
+  color: white;
+}
+
+.dark,
+.dark .navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.dark,
+.dark .logo {
+  background-color: rgb(243, 233, 233);
+  padding: 0 0.5rem 0 0;
+}
+
+/* Home page */
+.dark,
+.dark #land {
+  background-color: #222;
+}
+
+/* Portfolio */
+
+.dark,
+.dark #portfolio {
+  background-color: #222;
+}
+/* Contact Page */
+.dark,
+.dark #contact {
+  background-image: none !important;
+  background-color: #222;
+}
+
+.dark,
+.dark,
+footer .container {
+  border: none;
+}
+
+/* Toggle */
+
 .switch {
-    align-self: flex-end;
-    margin: 0.9375rem;
+  align-self: flex-end;
+  margin: 0.9375rem;
 }
 .inner-switch {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid #555;
-    border-radius: 1.25rem;
-    width: 3.125rem;
-    text-align: center;
-    font-size: 1rem;
-    padding: 0.1875rem;
-    margin-left: 0.3125rem;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
 }

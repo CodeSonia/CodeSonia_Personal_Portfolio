@@ -208,7 +208,7 @@ nav {
   margin-top: 100px;
 }
 
-.standard-button  {
+.standard-button {
   margin-top: 15px;
   display: block;
   background: linear-gradient(105deg, #ea4492, #522157);
@@ -227,7 +227,6 @@ nav {
 .standard-button:hover {
   background: #a75784;
   color: #ffffff;
-
 }
 
 .title-role {
@@ -356,7 +355,6 @@ nav {
 /*----------------------------- Portfolio ---------*/
 
 #portfolio {
-  /*background-color: #91a3b4;*/
   background-color: #cca9bd;
 }
 
@@ -596,7 +594,7 @@ div .fa-paper-plane {
   }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .about-height {
     height: 317px;
   }
@@ -631,10 +629,7 @@ div .fa-paper-plane {
     margin-top: 0.3rem;
   }
 
-  .about-height{
+  .about-height {
     height: 295px;
   }
 }
-
-
-
