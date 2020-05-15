@@ -507,7 +507,7 @@ div .fa-paper-plane {
 
 /* Standard Styles */
 
-@media (min-width: 568px) {
+@media (min-width: 568px) and (max-width: 990px) {
   .tech-skills,
   .soft-skills,
   .portfolio-right,
@@ -592,6 +592,11 @@ div .fa-paper-plane {
   }
 }
 
+@media (min-width: 992px){
+  .about-height {
+    height: 317px;
+  }
+}
 @media (min-width: 1200px) {
   .title-role {
     font-size: 1.4rem;
@@ -621,4 +626,9 @@ div .fa-paper-plane {
   .standard-button {
     margin-top: 0.3rem;
   }
+
+  .about-height{
+    height: 295px;
+  }
 }
+
