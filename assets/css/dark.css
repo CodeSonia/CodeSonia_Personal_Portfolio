@@ -17,7 +17,7 @@
 /* Nav */
 .dark,
 .dark nav {
-  background-color: #222;
+  background-color: #745777;
   color: white;
 }
 
@@ -27,9 +27,8 @@
 }
 
 .dark,
-.dark .logo {
-  background-color: rgb(243, 233, 233);
-  padding: 0 0.5rem 0 0;
+.dark .animated-icon2 span {
+  background: linear-gradient(to left, #e4dfd9, #c2649a);
 }
 
 /* Home page */
@@ -44,6 +43,7 @@
 .dark #portfolio {
   background-color: #222;
 }
+
 /* Contact Page */
 .dark,
 .dark #contact {
@@ -51,17 +51,21 @@
   background-color: #222;
 }
 
+/* Footer */
 .dark,
 .dark,
 footer .container {
   border: none;
 }
 
+.dark,
+.dark #footer {
+  background-color: #222;
+}
 /* Toggle */
 
 .switch {
-  align-self: flex-end;
-  margin: 0.9375rem;
+  margin: 0.1rem;
 }
 .inner-switch {
   display: inline-block;
