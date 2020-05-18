@@ -35,7 +35,11 @@ a {
 h4 {
   letter-spacing: 0.1rem;
 }
-
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*--------------------- logo ----------------------------*/
 
 .logo {
@@ -406,6 +410,11 @@ nav {
   letter-spacing: 0.05rem;
 }
 
+.portfolio-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*-------------------------------Experience -----------*/
 
 .dots {
