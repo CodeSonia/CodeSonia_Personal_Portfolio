@@ -305,6 +305,25 @@ nav {
   border: 0;
 }
 
+.get-in-touch {
+  text-decoration: none;
+  color: #C1F7DC;
+  font-style: bold;
+}
+
+.get-in-touch:hover {
+  text-decoration: underline;
+   color: #8bb9e4;
+}
+
+.about-links {
+  color: #f1f1f1;
+}
+
+.about-links:hover {
+  color: #f1f1f1;
+}
+
 /*-----------------------------Skills -------------*/
 
 .progress-bar {
@@ -598,7 +617,7 @@ div .fa-paper-plane {
 
 @media (min-width: 992px) {
   .about-height {
-    height: 317px;
+    height: 339px;
   }
 
   .navbar-brand {
@@ -636,6 +655,6 @@ div .fa-paper-plane {
   }
 
   .about-height {
-    height: 295px;
+    height: 269px;
   }
 }
