@@ -45,6 +45,7 @@ h4 {
 /*--------------------- nav styles -----------------------*/
 nav {
   background-color: #f4e0ed;
+ 
 }
 
 .nav-link {
@@ -514,6 +515,11 @@ div .fa-paper-plane {
   }
 }
 
+@media (min-width: 584px) and (max-width: 990px){
+  .navbar-brand {
+    margin-left: 0.5rem;
+  }
+}
 /* Mobile */
 
 @media (max-width: 766px) {
@@ -526,7 +532,7 @@ div .fa-paper-plane {
     margin-bottom: 0.4rem;
   }
   #home {
-    margin-top: 60px;
+    margin-top: 5rem;
   }
 }
 
@@ -593,6 +599,10 @@ div .fa-paper-plane {
 @media (min-width: 992px) {
   .about-height {
     height: 317px;
+  }
+
+  .navbar-brand {
+    margin-left: 0rem !important;
   }
 }
 @media (min-width: 1200px) {
