@@ -45,7 +45,6 @@ h4 {
 /*--------------------- nav styles -----------------------*/
 nav {
   background-color: #f4e0ed;
- 
 }
 
 .nav-link {
@@ -307,13 +306,13 @@ nav {
 
 .get-in-touch {
   text-decoration: none;
-  color: #C1F7DC;
-  font-style: bold;
+  color: #c1f7dc;
+  font-weight: bold;
 }
 
 .get-in-touch:hover {
   text-decoration: underline;
-   color: #8bb9e4;
+  color: #8bb9e4;
 }
 
 .about-links {
@@ -330,7 +329,7 @@ nav {
   background: linear-gradient(to left, #004e9a, #ea4492);
 }
 .skill-title {
-  letter-spacing:0.04rem;
+  letter-spacing: 0.04rem;
 }
 
 /*---------------------------Circle Donuts, credit from and amended to suit my style: https://codepen.io/sandersu/pen/gerEbM*/
@@ -359,12 +358,10 @@ nav {
   animation: donut-chart-fill 1s reverse ease-in;
   transform-origin: center;
   stroke: #ea4492;
-  
 }
 
 .donut-text {
   fill: #ea4492;
-
 }
 
 .donut-label {
@@ -387,6 +384,26 @@ nav {
 
 #portfolio {
   background-color: #cca9bd;
+}
+
+.portfolio-intro {
+  letter-spacing: 0.05rem;
+  color: #3a4144;
+  font-size: 1.2rem;
+}
+.step {
+  color: #004e9a;
+}
+.step-title {
+  font-size: 1.3rem;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-sub {
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
 }
 
 /*-------------------------------Experience -----------*/
@@ -542,6 +559,16 @@ div .fa-paper-plane {
   }
 }
 
+@media (max-width: 766px) {
+  .portfolio-img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+}
+
 @media (min-width: 568px) and (max-width: 990px) {
   .tech-skills,
   .soft-skills,
@@ -551,7 +578,7 @@ div .fa-paper-plane {
   }
 }
 
-@media (min-width: 584px) and (max-width: 990px){
+@media (min-width: 584px) and (max-width: 990px) {
   .navbar-brand {
     margin-left: 0.5rem;
   }
@@ -568,20 +595,12 @@ div .fa-paper-plane {
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 769px) {
-  
   .title-role {
     font-size: 1.5rem;
     margin-top: 1rem;
   }
 
-  .portfolio-img {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .contact-img {
     width: 60%;
     display: block;
@@ -591,13 +610,6 @@ div .fa-paper-plane {
 }
 
 @media (min-width: 770px) and (max-width: 1199px) {
-  .portfolio-img {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .title-role {
     font-size: 1.3rem;
     margin-top: 1rem;

@@ -31,11 +31,13 @@
   background: linear-gradient(to left, #e4dfd9, #c2649a);
 }
 
-.dark, .dark .hvr-underline-from-center:before {
+.dark,
+.dark .hvr-underline-from-center:before {
   background: #fff;
 }
 
-.dark, .dark .hvr-underline-from-center:after {
+.dark,
+.dark .hvr-underline-from-center:after {
   background: #fff;
 }
 
@@ -45,12 +47,16 @@
   background-color: #222;
 }
 
-
 /* Portfolio */
 
 .dark,
 .dark #portfolio {
   background-color: #222;
+}
+
+.dark,
+.dark .portfolio-intro {
+  color: #ffffff;
 }
 
 /* Contact Page */
@@ -77,9 +83,6 @@ footer .container {
   margin: 0.1rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  
-  
-
 }
 
 .inner-switch {
