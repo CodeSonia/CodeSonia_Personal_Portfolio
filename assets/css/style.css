@@ -332,6 +332,7 @@ nav {
 .skill-title {
   letter-spacing:0.04rem;
 }
+
 /*---------------------------Circle Donuts, credit from and amended to suit my style: https://codepen.io/sandersu/pen/gerEbM*/
 
 @keyframes donut-chart-fill {
@@ -343,7 +344,13 @@ nav {
 .svg-item {
   height: 100px;
   font-size: 16px;
+  margin: 0.5rem;
 }
+
+.donut {
+  margin-left: 0.2rem;
+}
+
 .donut-ring {
   stroke: #ebebeb;
 }
@@ -352,11 +359,12 @@ nav {
   animation: donut-chart-fill 1s reverse ease-in;
   transform-origin: center;
   stroke: #ea4492;
+  
 }
 
 .donut-text {
-  font-family: Arial, Helvetica, sans-serif;
   fill: #ea4492;
+
 }
 
 .donut-label {
@@ -372,6 +380,7 @@ nav {
   fill: #ea4492;
   line-height: 1;
   transform: translateY(0.5em);
+  text-align: center;
 }
 
 /*----------------------------- Portfolio ---------*/
@@ -527,6 +536,12 @@ div .fa-paper-plane {
 
 /* Standard Styles */
 
+@media (min-width: 320px) {
+  .progress {
+    margin-bottom: 0.4rem;
+  }
+}
+
 @media (min-width: 568px) and (max-width: 990px) {
   .tech-skills,
   .soft-skills,
@@ -541,13 +556,7 @@ div .fa-paper-plane {
     margin-left: 0.5rem;
   }
 }
-/* Mobile */
 
-@media (min-width: 766px) and (max-width:991px) {
-  .progress {
-    margin-bottom: 0.4rem;
-  }
-}
 @media (max-width: 766px) {
   .title-role {
     font-size: 1.2rem;
@@ -559,7 +568,7 @@ div .fa-paper-plane {
   }
 }
 
-/* Tablet */
+
 @media (min-width: 768px) and (max-width: 769px) {
   
   .title-role {
