@@ -329,7 +329,9 @@ nav {
 .progress-bar {
   background: linear-gradient(to left, #004e9a, #ea4492);
 }
-
+.skill-title {
+  letter-spacing:0.04rem;
+}
 /*---------------------------Circle Donuts, credit from and amended to suit my style: https://codepen.io/sandersu/pen/gerEbM*/
 
 @keyframes donut-chart-fill {
@@ -541,15 +543,17 @@ div .fa-paper-plane {
 }
 /* Mobile */
 
+@media (min-width: 766px) and (max-width:991px) {
+  .progress {
+    margin-bottom: 0.4rem;
+  }
+}
 @media (max-width: 766px) {
   .title-role {
     font-size: 1.2rem;
     margin-top: 1rem;
   }
 
-  .progress {
-    margin-bottom: 0.4rem;
-  }
   #home {
     margin-top: 5rem;
   }
@@ -557,9 +561,7 @@ div .fa-paper-plane {
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 769px) {
-  .progress {
-    margin-bottom: 0.4rem;
-  }
+  
   .title-role {
     font-size: 1.5rem;
     margin-top: 1rem;
