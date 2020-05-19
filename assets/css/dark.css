@@ -76,6 +76,10 @@
   background: transparent;
 }
 
+.dark,
+.dark .modal-body {
+  color: #222;
+}
 /* Footer */
 .dark,
 .dark,
