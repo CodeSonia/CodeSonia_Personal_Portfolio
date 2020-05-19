@@ -86,6 +86,9 @@ nav {
   background: none;
 }
 
+.fa-paper-plane:hover {
+  background: none;
+}
 /*--------------------------- Block ----------*/
 
 .block {
@@ -497,12 +500,6 @@ nav {
 }
 
 /*-----------------------------Contact-----------*/
-/*
-#contact {
-  background: linear-gradient(105deg, #bd87a6, #e4dfd9);
-}
-*/
-
 #contact {
   background-image: url("../images/vector_background.jpg");
   width: 100%;
@@ -510,7 +507,7 @@ nav {
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
-}
+}*/
 .form-width {
   padding-top: 10px;
   margin: 0 auto;
