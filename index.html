@@ -793,8 +793,8 @@
               <p class="portfolio-sub pb-1">Strategy</p>
               <p>
                 It is a great start to identify who your target audience is and
-                for what reasons. At this stage, we want to identify their goals and our
-                goals to ensure we fulfil this when we start designing.
+                for what reasons. At this stage, we want to identify their goals
+                and our goals to ensure we fulfil this when we start designing.
               </p>
               <p class="portfolio-sub pb-1">Scope & Structure</p>
               <p>
@@ -822,9 +822,9 @@
                 <p class="portfolio-sub pb-1">Skeleton</p>
                 <p>
                   The fun now begins! We start designing what we like the
-                  website to look like. It is a great idea to
-                  hammer down the layout, functionality and style to ensure we
-                  meet user's goals.
+                  website to look like. It is a great idea to hammer down the
+                  layout, functionality and style to ensure we meet user's
+                  goals.
                 </p>
                 <p class="portfolio-sub pb-1">Surface</p>
                 <p>
@@ -1645,10 +1645,12 @@
               Download my CV
             </p>
 
-            <p>Need a downloadable format of my CV? Download it here.
-            <a href="assets/sonia's_cv.pdf" target="_blank"
-              ><i class="fa fa-download"></i
-            ></a></p>
+            <p>
+              Need a downloadable format of my CV? Download it here.
+              <a href="assets/sonia's_cv.pdf" target="_blank"
+                ><i class="fa fa-download"></i
+              ></a>
+            </p>
           </div>
         </div>
         <div class="footer-copyright text-center py-4">
@@ -1681,6 +1683,11 @@
         $(".second-button").on("click", function () {
           $(".animated-icon2").toggleClass("open");
         });
+      });
+//credit to https://codepen.io/imprfcto/pen/WNNpBLp for helping me close nav item when clicked on
+      // close hamburger menu after click a
+      $(".navbar-nav li a").on("click", function () {
+        $(".animated-icon2").click();
       });
     </script>
 

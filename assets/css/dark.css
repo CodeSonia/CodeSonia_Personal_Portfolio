@@ -32,6 +32,8 @@
 
 .dark,
 .dark .animated-icon2 span {
+  background: -webkit-gradient(linear, right top, left top, from(#e4dfd9), to(#c2649a));
+  background: -o-linear-gradient(right, #e4dfd9, #c2649a);
   background: linear-gradient(to left, #e4dfd9, #c2649a);
 }
 
