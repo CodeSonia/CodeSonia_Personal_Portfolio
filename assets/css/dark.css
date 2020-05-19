@@ -13,6 +13,10 @@
 .dark .container {
   border: none;
 }
+.dark,
+.dark .text-muted {
+  color: #ffffff !important;
+}
 
 /* Nav */
 .dark,
@@ -64,6 +68,12 @@
 .dark #contact {
   background-image: none !important;
   background-color: #222;
+}
+
+.dark,
+.dark .alert {
+  color: #ffffff;
+  background: transparent;
 }
 
 /* Footer */

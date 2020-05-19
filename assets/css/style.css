@@ -500,18 +500,10 @@ nav {
 }
 
 /*-----------------------------Contact-----------*/
-#contact {
-  background-image: url("../images/vector_background.jpg");
-  width: 100%;
-  z-index: -400;
-  background-size: cover;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: lighten;
-}*/
+
 .form-width {
   padding-top: 10px;
   margin: 0 auto;
-  max-width: 85%;
 }
 
 button[type="submit"] {
@@ -531,6 +523,16 @@ div .fa-paper-plane {
   border: 3px solid #c2649a;
   box-shadow: none;
   outline: 0 !important;
+}
+
+.alert-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert-status {
+  font-size: 1.1rem;
 }
 
 /*-----------------------------Contact Modal-----------*/
@@ -606,13 +608,6 @@ div .fa-paper-plane {
     font-size: 1.5rem;
     margin-top: 1rem;
   }
-
-  .contact-img {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media (min-width: 770px) and (max-width: 1199px) {
@@ -652,6 +647,14 @@ div .fa-paper-plane {
   .navbar-brand {
     margin-left: 0rem !important;
   }
+  .form-width {
+    max-width: 85%;
+  }
+
+  .contact-img {
+    width: 109%;
+    height: 107%;
+  }
 }
 @media (min-width: 1200px) {
   .title-role {
@@ -685,5 +688,9 @@ div .fa-paper-plane {
 
   .about-height {
     height: 269px;
+  }
+  .contact-img {
+    width: 98.5%;
+    height: 98.5%;
   }
 }
