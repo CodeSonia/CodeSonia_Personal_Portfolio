@@ -102,6 +102,10 @@ nav {
 .block-short {
   width: 50px;
 }
+
+.block-left {
+  float:left;
+}
 .block-light {
   background-color: #e4dfd9;
 }
@@ -555,9 +559,23 @@ div .fa-paper-plane {
 }
 
 .footer-button {
-  background: #428cd4;
+  background: #9589c1;
   display: inline-block;
+  color: #f1f1f1;
 }
+
+.footer-button:hover {
+  background: #c2649a;
+  color: #f1f1f1;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+
+
 /*------------------ Media Queries ----------*/
 
 /* Standard Styles */
