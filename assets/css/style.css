@@ -10,12 +10,13 @@ body {
   color: #313639;
   
 }
-
+/*
 .container {
   border: 1px solid pink;
   /*
-  margin-top: 100px;*/
-}
+  margin-top: 100px;
+  }
+  */
 
 .img-size {
   width: 100%;
@@ -370,6 +371,7 @@ nav {
 }
 
 /*-----------------------------Skills -------------*/
+
 
 .progress-bar {
   background: -webkit-gradient(linear, right top, left top, from(#004e9a), to(#ea4492));

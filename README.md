@@ -1,8 +1,19 @@
-# CodeSonia
+# CodeSonia Portfolio
 
-One or two paragraphs providing an overview of your project.
+## Code Institute Milestone Project: User-Centric Frontend Development
 
-Essentially, this part is your sales pitch.
+![CodeSonia logo](/assets/images/code_sonia_logo.png)
+
+
+Welcome to my portfolio website. CodeSonia is myself and a brand that I have built for this project. You will find a fun, interactive website that showcases my skills, work history and recent projects. 
+
+
+
+
+
+
+
+Take a read below, and see why I have chosen to put in place certain features. 
  
 ## UX
  
