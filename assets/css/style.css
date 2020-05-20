@@ -15,7 +15,6 @@ body {
   border: 1px solid pink;
   /*
   margin-top: 100px;
-  }
   */
 
 .img-size {
@@ -371,7 +370,6 @@ nav {
 }
 
 /*-----------------------------Skills -------------*/
-
 
 .progress-bar {
   background: -webkit-gradient(linear, right top, left top, from(#004e9a), to(#ea4492));

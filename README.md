@@ -7,15 +7,17 @@
 
 Welcome to my portfolio website. CodeSonia is myself and a brand that I have built for this project. You will find a fun, interactive website that showcases my skills, work history and recent projects. 
 
+A live website can be found [here](https://codesonia.github.io/CodeSonia_Personal_Portfolio/)
 
+![tech mockup of website](/assets/images/multiple_device_mockup.png)
 
-
-
-
+![floating design mockup](/assets/images/floating_mockup.png)
 
 Take a read below, and see why I have chosen to put in place certain features. 
+
+# Table of Contents
  
-## UX
+# UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
