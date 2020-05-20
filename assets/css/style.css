@@ -1,6 +1,7 @@
 /*-------------------- standard styles for websites --------------------*/
 html {
   scroll-behavior: smooth;
+  font-size: 1rem;
 }
 
 body {
