@@ -26,6 +26,39 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+Before writing any code, I did some user research. I used Jesse James Garett's user-centred Design process to ensure my website is useful, usable and provides value to both targeted users and myself as the product owner. 
+
+In essence, CodeSonia should be:
+
+- Useful: useful to the user who wants to interact with your product.
+- Useable: when interacting with your product, it is also an enjoyable experience - it generates a positive emotional response.
+- Valuable: valuable to the user and the product owner. 
+
+## Strategy
+
+### Project goal: To get noticed
+
+The main goal for the website is to get noticed from its targeted users. Its users are recruiters (including tech & internal), developers, designers and start-ups.
+
+#### User goals:
+- Recruiters would want to hire the applicant or provide job opportunities.
+- Designers or developers would want to get in touch with me for collaboration on a project.
+- Start-ups are growing so they would be looking to find someone who can help raise their business by building an app or website. 
+- The goals and the needs of myself are to present me in the best light and get hired as a new developer. 
+
+Users should have the ability to reach out to me provided the contact information is correct. They should find the website easy to navigate and does not restrict them. They should be able to see my skills, previous work experience and competencies. I would also want them to access recent work/projects that I have been working on to showcase that I can code using different languages. 
+
+To achieve this goal and to stand out amongst other developers, the online website will be more than a CV. It will prove that I can do what I talk about, and interacting with my site should elicit a positive emotional response. This means finding the site intuitive, enjoyable and straightforward. Rather than telling prospective employers about CodeSonia's skills, CodeSonia bridges the knowledge gap by providing case examples of completed projects to showcase CodeSonia's skills.
+
+As well as this, my goal is to use the portfolio website to build a personal brand. But, as I have no commercial experience, this is not an essential priority. As I evolve and gain industry experience, I will be able to showcase my personality.
+
+#### User Expectations:
+The content should give me the necessary information about who is CodeSonia.
+- Can I contact Sonia?
+- Can I access personal details, work history and skillset? This is so I can assess if CodeSonia is the right fit for me.
+- The user interface is easy to navigate.
+- Can I access the website on mobile, and is it responsive?
+- I want to be able to view her previous projects and work.
 
 ## Features
 
