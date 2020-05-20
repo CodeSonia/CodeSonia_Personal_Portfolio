@@ -18,13 +18,6 @@ Take a read below, and see why I have chosen to put in place certain features.
 # Table of Contents
  
 # UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Before writing any code, I did some user research. I used Jesse James Garett's user-centred Design process to ensure my website is useful, usable and provides value to both targeted users and myself as the product owner. 
 
@@ -59,6 +52,73 @@ The content should give me the necessary information about who is CodeSonia.
 - The user interface is easy to navigate.
 - Can I access the website on mobile, and is it responsive?
 - I want to be able to view her previous projects and work.
+
+### User Stories:
+
+As a product owner...
+- I want to humanise my brand and showcase who CodeSonia is by providing an image, contact information, and a story to increase CodeSonia’s brand awareness.
+- I want to illustrate my projects so that I can appeal to prospective recruiters/employers.
+- I want to provide the ability for users to contact me with any requests, or with the ability to book a friendly conversation for networking purposes.
+- I want to provide my social media channels, so prospective employers/recruiters can put a face/personality to CodeSonia.
+- I want to showcase CodeSonia in her best light by providing her most significant achievements to convey the message that CodeSonia is motivated, passionate and driven in any work setting.
+- I want to illustrate CodeSonia’s technical skills in a visual format so that employers/recruiters gain a better understanding of the skillset.
+- I want to illustrate other skills in a fun, engaging format so that users can see that CodeSonia has soft skills that are also required for the roles they are advertising.
+- I want to showcase CodeSonia’s work history so that employers can gain a better understanding of the experience learned.
+- I want to showcase CodeSonia’s educational background to illustrate the different qualifications have been achieved.
+- I want users to have positive, enjoyable user experience with CodeSonia’s so that they can come back to the site, contact the user with prospective job opportunities. 
+- I want to provide a downloadable format of the CV so that users can have access to a traditional form of CV besides a portfolio.
+- I want developers or start-ups to feel that they can quickly request to collaborate on a project.
+- I want to showcase CodeSonia in her best light and that she is passionate about things within the tech industry, or females trying to get into tech - thought leadership exercise.
+- I want users to quickly identify what page of the website they are on and can easily navigate from one section to another section without any hassle = ensure positive user journey at all touchpoints!
+
+As a recruiter...
+- I want to learn about the developer and who this person is beside the technical skills and view if they also have the right soft skills to assess if they can fit within the team.
+- I want to be able to contact the developer to discuss potential opportunities at hand and build a great rapport as developing relationships with developers are essential. 
+- I want the website to provide easy access to contact information, telephone number, email, social media links and a google map link so I am able to ascertain where the developer is based and can quickly contact them with exciting opportunities at hand.
+- I want to be able to book some time with the developer on their website so that I can avoid time hassle.
+- I want to be able to connect the developer using LinkedIn or professional social media channels to keep up to date with the developer’s work history or any changes.
+- I expect to be able to quickly get in contact via an easy to use the contact form so that I can build a relationship or present any job opportunities at hand.
+- I want to learn about the developer and who this person is beside the technical skills and view if they also have the right soft skills to assess if they can fit within the team.
+- Having access to CodeSonia’s background and work history provides them with a brief overview of CodeSonia’s competencies, technical & soft skills.
+- I want to view the developer’s educational background to see how they got into software development/coding.
+- If accessing the developer’s site on mobile or tablet, I expect the website to be mobile friendly and can adhere to different devices so that I can easily navigate on smaller devices.
+- I want to see a word or pdf format of the CV so that I can assess the candidate’s work history and skills to ascertain if they are the right person for the job and pass their details and link the portfolio to my clients.
+- I want to find what I am looking for quickly, and I want the layout of the site to make sense, so I am not confused or put off from using it. 
+- I want the information presented in a way that is intuitive, easy to navigate, so I can find out what I need effectively and efficiently.
+
+As a collaborator...
+- I want to view the developer’s project to ascertain if the developer can produce the type of things I am looking to build.
+- I want to use a feature on the website to book a meeting or a phone call to ease the process of waiting for an email back or telephone call.
+- I want to view the developer’s project to ascertain if the developer can produce the type of things I am looking to build.
+- I want to view the developer’s project to ascertain if the developer can produce the type of things I am looking to build.
+- For start-ups or users who are looking to hire a contractor, they would want to see a different type of content, including blogs. 
+- I expect the user interface that is easy to use and not complex, where information is laid out logically so that I can easily digest the information provided.
+
+### Strategy Table
+
+The strategy table illustrates the trade-off between importance and viability. As we move onto Scope soon, it is clear that this project requires different phases to implement features and capitalise on any opportunity. 
+
+Opportunity/Problem/Feature| Importance| Viability
+------------ | -------------------------|---------
+About me - personal information including name, blub | 5|5
+Showcase projects - link to GitHub and live site | 5 | 5
+Contact me form | 5 | 5
+Highlight achievements | 4 | 1
+Highlight technical skills | 5 | 5
+Highlight soft skills | 5 | 5
+Work History| 5 | 5
+Educational background| 5 | 5
+Responsive Design| 5 | 5
+Downloadable CV | 5 | 5
+Request to collaborate | 5 | 3
+Blog Section | 5 | 1
+Client Testimonials | 5 | 1
+Prices for services | 4 | 1
+Dark mode | 4 | 1
+Live chat | 4 | 1
+Total| 76 | 54
+
+
 
 ## Features
 
