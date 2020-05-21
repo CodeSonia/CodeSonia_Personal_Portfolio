@@ -16,7 +16,12 @@ A live website can be found [here](https://codesonia.github.io/CodeSonia_Persona
 Take a read below, and see why I have chosen to put in place certain features. 
 
 # Table of Contents
- 
+1. [ UX](#UX)
+    - [Strategy](Strategy)
+      - [User Goals](User-Goals:)
+      - [User Expectations](User-Expectations:)
+      - [User Stories](User-Stories:)
+      - [Strategy Table](Strategy-Table)
 # UX
 
 Before writing any code, I did some user research. I used Jesse James Garett's user-centred Design process to ensure my website is useful, usable and provides value to both targeted users and myself as the product owner. 
@@ -182,9 +187,9 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for multiple devic
 
 Please find below links to view the wireframes:
 
-- [Desktop](wireframes/desktop_wireframes.pdf)
-- [Tablet]()
-- [Mobile]()
+- [Desktop](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/desktop_wireframes.pdf)
+- [Tablet](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/tablet_wireframes.pdf)
+- [Mobile](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/mobile_wireframes.pdf)
 
 You will notice there are some differences to the actual website. For example, the home page no longer consists of a full size background image, instead it takes full width of a column. As you will see in my earlier commits, I did not like how the original idea turned out so I turned back to the drawing board. Which led me to utilise my design skills to create something more fun and unique. 
 
@@ -350,7 +355,7 @@ Here are a couple of errors flagged and rectified:
 ### Manual Testing 
 
 #### User Stories 
-- Please view it [here]()
+- Please view it [here](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/testing_user_stories.pdf)
 
 I have tested my site on Safari, and Google Chrome and the website looks fine and works as intended. I have also tested on the following devices:
 - iPhone X
@@ -392,6 +397,8 @@ To run my code locally, users can clone this by clicking on the targeted repo, c
 - Color choices: [Digital Synopsis](https://digitalsynopsis.com/design/beautiful-color-gradient-palettes/)
 - [FreePik](https://www.freepik.com/home) (I have premium account)
 - Dark mode feature: [Devloper drive](https://www.developerdrive.com/css-dark-mode/)
+- [MockupWorld](https://www.mockupworld.co/)
+- [StackOverflow](https://stackoverflow.com/)
 
 I would like to give special thanks to:
 
