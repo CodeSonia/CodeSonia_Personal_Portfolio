@@ -16,12 +16,25 @@ A live website can be found [here](https://codesonia.github.io/CodeSonia_Persona
 Take a read below, and see why I have chosen to put in place certain features. 
 
 # Table of Contents
-1. [ UX](#UX)
-    - [Strategy](Strategy)
-      - [User Goals](User-Goals:)
-      - [User Expectations](User-Expectations:)
-      - [User Stories](User-Stories:)
-      - [Strategy Table](Strategy-Table)
+- [UX](#ux)
+  * [Strategy](#strategy)
+    + [Project goal: To get noticed](#project-goal--to-get-noticed)
+      - [User goals:](#user-goals-)
+      - [User Expectations:](#user-expectations-)
+      - [User Stories:](#user-stories-)
+      - [Strategy Table](#strategy-table)
+      - [Trends of modern websites:](#trends-of-modern-websites-)
+- [Scope](#scope)
+- [Structure](#structure)
+- [Skeleton](#skeleton)
+- [Surface](#surface)
+- [Features](#features)
+    + [Existing Features](#existing-features)
+    + [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 # UX
 
 Before writing any code, I did some user research. I used Jesse James Garett's user-centred Design process to ensure my website is useful, usable and provides value to both targeted users and myself as the product owner. 
