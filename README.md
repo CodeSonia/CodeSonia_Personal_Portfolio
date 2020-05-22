@@ -414,6 +414,8 @@ To run my code locally, users can clone this by clicking on the targeted repo, c
 - [MockupWorld](https://www.mockupworld.co/)
 - [StackOverflow](https://stackoverflow.com/)
 - [CSS Tricks](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/) help solve my navbar overlapping content by implementing `scroll-padding-top: 70px;`
+- Candy Museum project thanks to [Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/)
+- CV Project, Whiskey Drop and Love Running thanks to Code Institute 
 
 I would like to give special thanks to:
 
@@ -421,5 +423,13 @@ I would like to give special thanks to:
 - Lucy Rush - student care advisor for being so helpful!
 - My 10-year-old cousin for letting me know she 'loves' my website and being 'wowed' for any feature implemented! 
 - My partner for being supportive during the weird pandemic period and helping me when I ran into the read more button bug. 
+- Last, but not least, my family for supporting me when I ran into a problem/bug. Then cheered me on for fixing it! 
+
+##### Reflection 
+
+I started this project with no experience in coding. So it was expected that I would run into a lot of issues. When I created my repo and launched it onto GitPod, I instantly ran into a problem. My CSS styles were not making any changes, but soon realised it was just a cache issue. Moving along, I enjoyed working on this project. It was fun to utilise my creative flair and Affinity Photo and Designer skills to inject personality to this project. I wanted to 'wow' the users by incorporating fun features, like hover effects, flip animation and animated hamburger icon. I worked hard on this to illustrate my passion and genuine interest in web development. I will be using this project as my real-life portfolio when I graduate.
+
+Thank you for taking the time to read my project. 
+
 
 
