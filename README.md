@@ -39,7 +39,7 @@ Take a read below, and see why I have chosen to put in place certain features.
 
 Before writing any code, I did some user research. I used Jesse James Garett's user-centred Design process to ensure my website is useful, usable and provides value to both targeted users and myself as the product owner. 
 
-In essence, CodeSonia should be and what I kept in mind when working on my project:
+Throughout the development of CodeSonia I ensured that I kept the user in mind and ensuring the website is:
 
 - Useful: useful to the user who wants to interact with your product.
 - Useable: when interacting with your product, it is also an enjoyable experience - it generates a positive emotional response.
@@ -62,11 +62,11 @@ This has led me to identify the goals and helped guide my project below.
 - Recruiters would want to hire the applicant or provide job opportunities.
 - Designers or developers would want to get in touch with me for collaboration on a project.
 - Start-ups are growing so they would be looking to find someone who can help raise their business by building an app or website. 
-- The goals and the needs of myself are to present me in the best light and get hired as a new developer. 
+- The project will assist on creating a valued perspective on me and my work, which could then lead to hirings of projects or roles 
 
-Users should have the ability to reach out to me provided the contact information is correct. They should find the website easy to navigate and does not restrict them. They should be able to see my skills, previous work experience and competencies. I would also want them to access recent work/projects that I have been working on to showcase that I can code using different languages. 
+Users should have the ability to reach out to me, provided the contact information is correct. They should find the website easy to navigate and allow them to gain knowledge about me as a potential employee. They should be able to see my skills, previous work experience and competencies. I would also want them to access recent work/projects that I have been working on to showcase that I can code using different languages. 
 
-To achieve this goal and to stand out amongst other developers, the online website will be more than a CV. It will prove that I can do what I talk about, and interacting with my site should elicit a positive emotional response. This means finding the site intuitive, enjoyable and straightforward. Rather than telling prospective employers about CodeSonia's skills, CodeSonia bridges the knowledge gap by providing case examples of completed projects to showcase CodeSonia's skills.
+To achieve this goal and to stand out amongst other developers, the online website will be more than a CV. As when the user is introduced to the site it should elicit a positive emotional response. This means finding the site intuitive, enjoyable and straightforward. Rather than telling prospective employers about CodeSonia's skills, CodeSonia bridges the knowledge gap by providing case examples of completed projects to showcase CodeSonia's skills.
 
 As well as this, my goal is to use the portfolio website to build a personal brand. But, as I have no commercial experience, this is not an essential priority. As I evolve and gain industry experience, I will be able to showcase my personality.
 
@@ -84,7 +84,7 @@ As a product owner...
 - I want to humanise my brand and showcase who CodeSonia is by providing an image, contact information, and a story to increase CodeSonia’s brand awareness.
 - I want to illustrate my projects so that I can appeal to prospective recruiters/employers.
 - I want to provide the ability for users to contact me with any requests, or with the ability to book a friendly conversation for networking purposes.
-- I want to provide my social media channels, so prospective employers/recruiters can put a face/personality to CodeSonia.
+- I want to provide my social media channels, to personify CodeSonia.
 - I want to showcase CodeSonia in her best light by providing her most significant achievements to convey the message that CodeSonia is motivated, passionate and driven in any work setting.
 - I want to illustrate CodeSonia’s technical skills in a visual format so that employers/recruiters gain a better understanding of the skillset.
 - I want to illustrate other skills in a fun, engaging format so that users can see that CodeSonia has soft skills that are also required for the roles they are advertising.
