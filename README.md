@@ -291,7 +291,8 @@ Shadow - cards on about and portfolio have a shadow effect. This is to help crea
 - Calendar - a feature for the contact form. This is so that users can easily book a conversation call with me. 
 - Achievements - this to showcase me in my best light. As I will gain experience, I can put this on the section to make myself more attractive to recruiters. 
 - Blog section - help build brand personality and useful tips for developers. 
-Dark mode toggle button - create a 'cooler' button with a sun or moon. 
+- Dark mode toggle button - create a 'cooler' button with a sun or moon. 
+- Submit function on modal form should reset - this currently does not work.
 
 #### General maintenance
 - CodeSonia should always remain consistent, relevant and provide accurate information. For this reason, every year, the website will be updated with new information. 
