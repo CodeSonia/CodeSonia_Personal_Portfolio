@@ -413,6 +413,7 @@ To run my code locally, users can clone this by clicking on the targeted repo, c
 - Dark mode feature: [Devloper drive](https://www.developerdrive.com/css-dark-mode/)
 - [MockupWorld](https://www.mockupworld.co/)
 - [StackOverflow](https://stackoverflow.com/)
+- [CSS Tricks](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/) help solve my navbar overlapping content by implementing `scroll-padding-top: 70px;`
 
 I would like to give special thanks to:
 
