@@ -11,19 +11,12 @@ body {
   color: #313639;
   
 }
-/*
-.container {
-  border: 1px solid pink;
-  /*
-  margin-top: 100px;
-  */
 
 .img-size {
   width: 100%;
 }
 ul.social-links {
   list-style: none;
-  /* border: 1px solid red; */
   padding: 0;
 }
 
@@ -38,17 +31,19 @@ a {
 h4 {
   letter-spacing: 0.1rem;
 }
+
 .vertical-align {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
+
 /*--------------------- logo ----------------------------*/
 
 .logo {
@@ -71,8 +66,8 @@ nav {
 .hvr-underline-from-center:after {
   background: #8b4c70;
 }
-/*-------------------- fa icons --------------------*/
 
+/*-------------------- fa icons --------------------*/
 .fa {
   margin: 5px;
   margin-left: 0;
@@ -98,8 +93,8 @@ nav {
 .fa-paper-plane:hover {
   background: none;
 }
-/*--------------------------- Block ----------*/
 
+/*--------------------------- Block ----------*/
 .block {
   width: 70px;
   height: 5px;
@@ -114,6 +109,7 @@ nav {
 .block-left {
   float:left;
 }
+
 .block-light {
   background-color: #e4dfd9;
 }
@@ -126,7 +122,7 @@ nav {
   background-color: #8b4c70;
 }
 
-/*------------------navbar icon animination credit to mdbootstrap.com & styled to my own brand colours*/
+/*------------------navbar icon animination source: https://mdbootstrap.com/snippets/jquery/mdbootstrap/911054 adjusted to my branded colours */
 .navbar-light .navbar-toggler {
   border: transparent;
   color: transparent;
@@ -207,7 +203,6 @@ nav {
 }
 
 /*----------------------------------Home--------*/
-
 .p-job-role {
   margin-top: 100px;
   font-size: 0.9rem;
@@ -252,8 +247,7 @@ nav {
   letter-spacing: 0.15rem;
 }
 
-/*-- Home animation---*/
-
+/*-- Home animation source Nooray Yemon: https://codepen.io/yemon/pen/pWoROm adjusted to brand preference ---*/
 #flip {
   height: 45px;
   overflow: hidden;
@@ -371,7 +365,6 @@ nav {
 }
 
 /*-----------------------------Skills -------------*/
-
 .progress-bar {
   background: -webkit-gradient(linear, right top, left top, from(#004e9a), to(#ea4492));
   background: -o-linear-gradient(right, #004e9a, #ea4492);
@@ -442,7 +435,6 @@ nav {
 }
 
 /*----------------------------- Portfolio ---------*/
-
 #portfolio {
   background-color: #cca9bd;
 }
@@ -478,8 +470,8 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
 }
-/*-------------------------------Experience -----------*/
 
+/*-------------------------------Experience -----------*/
 .dots {
   display: inline;
 }
@@ -508,8 +500,8 @@ nav {
 .read:hover {
   color: white;
 }
-/*-------- Timeline --------*/
 
+/*-------- Timeline --------*/
 .timeline {
   list-style-type: none;
   position: relative;
@@ -562,7 +554,6 @@ nav {
 }
 
 /*-----------------------------Contact-----------*/
-
 .form-width {
   padding-top: 10px;
   margin: 0 auto;
@@ -638,7 +629,6 @@ div .fa-paper-plane {
   letter-spacing: 0.04rem;
   text-transform: uppercase;
 }
-
 
 /*------------------ Media Queries ----------*/
 
