@@ -631,16 +631,22 @@ div .fa-paper-plane {
 }
 
 /*------------------ Media Queries ----------*/
-
-/* Standard Styles */
-
 @media (min-width: 320px) {
   .progress {
     margin-bottom: 1rem;
   }
 }
 
-/*
+@media (min-width: 568px) and (max-width: 990px) {
+  .tech-skills,
+  .soft-skills,
+  .portfolio-right,
+  .portfolio-left {
+    margin-left: 0 !important;
+  }
+}
+
+
 @media (max-width: 766px) {
   .portfolio-img {
     display: block;
