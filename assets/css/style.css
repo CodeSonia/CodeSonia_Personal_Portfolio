@@ -15,6 +15,7 @@ body {
 .img-size {
   width: 100%;
 }
+
 ul.social-links {
   list-style: none;
   padding: 0;
@@ -45,7 +46,6 @@ h4 {
 }
 
 /*--------------------- logo ----------------------------*/
-
 .logo {
   height: 2.5rem;
 }
@@ -219,12 +219,9 @@ nav {
   margin-top: 100px;
 }
 
-.standard-button {
+.btn-std-style {
   margin-top: 15px;
   display: block;
-  background: -o-linear-gradient(345deg, #ea4492, #522157);
-  background: linear-gradient(105deg, #ea4492, #522157);
-  color: #ffffff;
   border: none;
   outline: none;
   padding: 8px 20px;
@@ -237,12 +234,30 @@ nav {
        -o-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
+.primary-button {
+  background: -o-linear-gradient(345deg, #ea4492, #522157);
+  background: linear-gradient(105deg, #ea4492, #522157);
+  color: #ffffff;
+  
+}
 
-.standard-button:hover {
+.primary-button:hover {
   background: #a75784;
   color: #ffffff;
 }
 
+.secondary-button {
+  border: #a04b7b solid 3px;
+  padding: 6px 18px;
+  color: #313639;
+}
+
+.secondary-button:hover {
+  color: #fff;
+  background: #a75784;
+  border: none;
+  padding: 8px 20px;
+}
 .title-role {
   letter-spacing: 0.15rem;
 }
