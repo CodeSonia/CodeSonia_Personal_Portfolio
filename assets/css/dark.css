@@ -53,6 +53,10 @@
   background-color: #222;
 }
 
+.dark, 
+.dark .secondary-button {
+  color: #f1f1f1;
+}
 /* Portfolio */
 
 .dark,
