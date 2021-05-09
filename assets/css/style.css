@@ -225,8 +225,9 @@ nav {
   border: none;
   outline: none;
   padding: 8px 20px;
+  text-transform: uppercase;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 0.8rem;
   border-radius: 1rem;
   text-align: center;
   position: relative;
@@ -702,6 +703,14 @@ div .fa-paper-plane {
   .title-role {
     font-size: 1.5rem;
     margin-top: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-std-style {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
   }
 }
 
