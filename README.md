@@ -405,6 +405,7 @@ To run my code locally, users can clone this by clicking on the targeted repo, c
 - Animated hamburger icon: [MDBootstrap](https://mdbootstrap.com/snippets/jquery/mdbootstrap/911054)
 - Clode hamburger icon once clicked: [Merangely Asensi](https://codepen.io/imprfcto/pen/WNNpBLp)
 - SVG icons: [Sander](https://codepen.io/sandersu/pen/gerEbM)
+- Timeline: [Bootstrapious](https://bootstrapious.com/p/timeline)
 - Read more/less JavaScript: [Coding Artist](https://codingartistweb.com/2020/04/read-more-read-less/--)
 - Contact modal submit JavaScript functionality: Dick Vlaanderen (my mentor)
 - [Favicon](https://favicomatic.com/)
