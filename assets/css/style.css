@@ -262,7 +262,10 @@ nav {
 
 .title-role {
   letter-spacing: 0.15rem;
+  color: #636b73;
 }
+
+
 
 /*-- Home animation source Nooray Yemon: https://codepen.io/yemon/pen/pWoROm adjusted to brand preference ---*/
 #flip {
