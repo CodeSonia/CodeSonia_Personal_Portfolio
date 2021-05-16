@@ -658,16 +658,6 @@ div .fa-paper-plane {
   }
 }
 
-@media (min-width: 568px) and (max-width: 990px) {
-  .tech-skills,
-  .soft-skills,
-  .portfolio-right,
-  .portfolio-left {
-    margin-left: 0 !important;
-  }
-}
-
-
 @media (max-width: 766px) {
   .portfolio-img {
     display: block;
@@ -675,15 +665,6 @@ div .fa-paper-plane {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-  }
-}
-
-@media (min-width: 568px) and (max-width: 990px) {
-  .tech-skills,
-  .soft-skills,
-  .portfolio-right,
-  .portfolio-left {
-    margin-left: 0 !important;
   }
 }
 
@@ -762,6 +743,10 @@ div .fa-paper-plane {
     font-size: 15px;
     margin-top: 0.5rem;
     margin-bottom: 0;
+  }
+
+  .btn-std-style {
+    margin-top: 0;
   }
 }
 
