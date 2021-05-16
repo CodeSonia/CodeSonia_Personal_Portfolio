@@ -706,7 +706,7 @@ div .fa-paper-plane {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .btn-std-style {
     font-weight: 500;
     letter-spacing: 2px;
@@ -729,6 +729,10 @@ div .fa-paper-plane {
   .contact-img {
     width: 109%;
     height: 107%;
+  }
+
+  .btn-std-style {
+    font-weight: 500;
   }
 }
 
@@ -794,8 +798,13 @@ div .fa-paper-plane {
   .about-height {
     height: 269px;
   }
+
   .contact-img {
     width: 98.5%;
     height: 98.5%;
+  }
+
+  .btn-std-style {
+    letter-spacing: 0.1rem;
   }
 }
