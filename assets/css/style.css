@@ -467,7 +467,7 @@ nav {
 }
 
 .step {
-  color: #004e9a;
+  color: #901257;
 }
 .step-title {
   font-size: 1.3rem;
@@ -491,6 +491,11 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+/*-------------------------------Education -----------*/
+#education .card{
+  background-color: #0c7f92;
 }
 
 /*-------------------------------Experience -----------*/
@@ -523,6 +528,10 @@ nav {
   color: white;
 }
 
+#experience .card{
+  background-color: #0c7f92;
+}
+
 /*-------- Timeline --------*/
 .timeline {
   list-style-type: none;
@@ -532,7 +541,7 @@ nav {
 /*verticle line*/
 .timeline:before {
   content: "";
-  background: #17a2b8;
+  background: #0c7f92;
   display: inline-block;
   position: absolute;
   left: 16px;
@@ -548,7 +557,7 @@ nav {
 /*arrow*/
 .timeline-arrow {
   border-top: 1rem solid transparent;
-  border-right: 1rem solid #17a2b8;
+  border-right: 1rem solid #0c7f92;
   border-bottom: 1rem solid transparent;
   display: block;
   position: absolute;
@@ -562,7 +571,7 @@ nav {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 5px solid #17a2b8;
+  border: 5px solid #0c7f92;
   left: 8px;
   width: 20px;
   height: 20px;
@@ -579,6 +588,11 @@ nav {
 .form-width {
   padding-top: 10px;
   margin: 0 auto;
+}
+
+.contact-sub-text {
+  color: #636b73;
+  letter-spacing: 0.05rem;
 }
 
 button[type="submit"] {
