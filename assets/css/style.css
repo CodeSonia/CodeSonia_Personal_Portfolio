@@ -84,6 +84,7 @@ nav {
 
 .fa:hover {
   background: #c2649a;
+  transition: 1s;
 }
 
 .fa-paper-plane {
@@ -92,6 +93,7 @@ nav {
 
 .fa-paper-plane:hover {
   background: none;
+  transition: 1s;
 }
 
 /*--------------------------- Block ----------*/
@@ -240,6 +242,7 @@ nav {
 .primary-button:hover {
   background: #a75784;
   color: #ffffff;
+  transition: 1s;
 }
 
 .secondary-button {
@@ -375,6 +378,7 @@ nav {
 .get-in-touch:hover {
   text-decoration: underline;
   color: #8bb9e4;
+  transition: 1s;
 }
 
 .about-links {
@@ -383,6 +387,7 @@ nav {
 
 .about-links:hover {
   color: #f1f1f1;
+  transition: 1s;
 }
 
 /*-----------------------------Skills -------------*/
@@ -526,6 +531,7 @@ nav {
 
 .read:hover {
   color: white;
+  transition: 1s;
 }
 
 #experience .card{
@@ -597,6 +603,16 @@ nav {
   font-size: 3.5rem;
 }
 
+.contact-email-link {
+  color: #c2649a;
+  text-decoration: underline;
+}
+
+.contact-email-link:hover {
+  color:#5421b3;
+  transition: 1s;
+}
+
 .contact-sub-text {
   color: #636b73;
   letter-spacing: 0.05rem;
@@ -665,6 +681,7 @@ div .fa-paper-plane {
 .footer-button:hover {
   background: #c2649a;
   color: #f1f1f1;
+  transition: 1s;
 }
 
 .footer-copyright {
