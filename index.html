@@ -1252,32 +1252,65 @@
 
   <!--Contact Section-->
   <section class="container mt-3 contact-section" id="contact">
-    <h4 class="pt-4 text-center">
-      Get in touch
-    </h4>
-    <hr class="block block-blue" />
-    <div class="alert-wrapper">
-      <div class="alert alert-primary" role="alert">
-        <p class="text-center text-secondary">
-          Status: Available
-        </p>
-      </div>
-    </div>
     <div class="row">
       <!--Form section left-->
-      <div class="col-6">
-        <h5 class="contact-sub">Let's Talk!</h5>
-        <p>Have a project in mind or a job opportunity you'd like to discuss? Get in touch below, and I will get back to
-          you within 1 - 2 working days.</p>
+      <div class="col-7">
         <div class="row">
           <div class="col">
+            <h4 class="pt-4 contact-header">
+              Get in touch.
+            </h4>
+            <hr class="block block-left block-blue pt-0" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8">
+            <h5 class="contact-sub">Let's Talk!</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>Don't like forms? Send us an <a href="mailto:sonia_ah@iclouc.com">email.</a></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-10">
             <img src="assets/images/contact_sonia_laptop.png" class="img-size">
           </div>
         </div>
 
       </div>
       <!--Form section right-->
-      <div class="col-4"></div>
+      <div class="col-5 vertical-align">
+        <div class="form-width shadow" id="contact-form">
+
+          <div class="col text-center">
+            <div class="fa fa-paper-plane"></div>
+          </div>
+          <form>
+            <div class="col mb-2">
+              <input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required />
+            </div>
+
+            <div class="col mb-2">
+              <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your email address"
+                required />
+            </div>
+            <div class="col mb-2">
+              <textarea rows="5" name="messagerequest" id="messagerequest" class="form-control"
+                placeholder="Your message" required></textarea>
+            </div>
+            <div class="form-row text-center mb-2">
+              <div class="col">
+                <button type="submit" class="btn">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 

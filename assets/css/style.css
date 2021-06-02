@@ -585,13 +585,16 @@ nav {
 }
 
 /*-----------------------------Contact-----------*/
+.contact-header {
+  color: #636b73;
+}
+
 .form-width {
-  padding-top: 10px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .contact-sub {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .contact-sub-text {
