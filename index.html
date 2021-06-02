@@ -1270,7 +1270,8 @@
         </div>
         <div class="row">
           <div class="col">
-            <p>Don't like forms? Send us an <a href="mailto:sonia_ah@iclouc.com" class="contact-email-link">email.</a></p>
+            <p>Don't like forms? Send us an <a href="mailto:sonia_ah@iclouc.com" class="contact-email-link">email.</a>
+            </p>
           </div>
         </div>
         <div class="row">
@@ -1286,9 +1287,14 @@
           <div class="col text-center">
             <div class="fa fa-paper-plane"></div>
           </div>
-          <form>
+          <!--form action is empty as file is not set-up to receive data when user clicks on submit-->
+          <form action="" method="POST">
             <div class="col mb-2">
-              <input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required />
+              <fieldset>
+                <legend>
+
+
+                  <input type="text" name="name" id="fullname" class="form-control" placeholder="Your name" required />
             </div>
 
             <div class="col mb-2">
@@ -1304,6 +1310,8 @@
                 <button type="submit" class="btn">Send Message</button>
               </div>
             </div>
+            </legend>
+            </fieldset>
           </form>
         </div>
       </div>
