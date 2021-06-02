@@ -590,6 +590,10 @@ nav {
   margin: 0 auto;
 }
 
+.contact-sub {
+  font-size: 3rem;
+}
+
 .contact-sub-text {
   color: #636b73;
   letter-spacing: 0.05rem;
