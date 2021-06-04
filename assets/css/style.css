@@ -656,6 +656,7 @@ button[type="submit"]:hover{
   background-color:#a35581;
   color: #f1f1f1;
 }
+
 .submit-icon {
   background: none;
   padding: 5px;
@@ -726,6 +727,21 @@ button[type="submit"]:hover{
 @media (min-width: 320px) {
   .progress {
     margin-bottom: 1rem;
+  }
+
+  .contact-header {
+    font-size: 2rem;
+  }
+
+  button[type="submit"]{
+    width: 90%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 991px) {
+
+  button[type="submit"]{
+    width: 95%;
   }
 }
 
@@ -818,6 +834,10 @@ button[type="submit"]:hover{
   }
 }
 
+@media (min-width: 1024px) {
+  button[type="submit"]{
+    width: 50%;
+}
 @media (min-width: 1200px) {
   .title-role {
     font-size: 1.4rem;
