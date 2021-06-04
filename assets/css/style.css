@@ -463,7 +463,7 @@ nav {
 }
 
 .step {
-  color: #901257;
+  color: #740e46;
 }
 .step-title {
   font-size: 1.3rem;
@@ -634,7 +634,7 @@ label {
 }
 
 .contact-email-link {
-  color: #c2649a;
+  color: #bb2c7e;
   text-decoration: underline;
 }
 
@@ -875,7 +875,7 @@ button[type="submit"]:hover{
   .about-height {
     height: 269px;
   }
-  
+
   .btn-std-style {
     letter-spacing: 0.1rem;
   }
