@@ -599,6 +599,11 @@ legend {
   font-size: 1.8rem;
   padding-top: 2rem;
   font-weight: 500;
+  margin-left: 1rem;
+}
+
+label {
+  margin-top: 1rem;
 }
 
 .input-container {
@@ -838,6 +843,7 @@ button[type="submit"]:hover{
   button[type="submit"]{
     width: 50%;
 }
+
 @media (min-width: 1200px) {
   .title-role {
     font-size: 1.4rem;
