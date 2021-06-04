@@ -87,15 +87,6 @@ nav {
   transition: 1s;
 }
 
-.fa-paper-plane {
-  background: none;
-}
-
-.fa-paper-plane:hover {
-  background: none;
-  transition: 1s;
-}
-
 /*--------------------------- Block ----------*/
 .block {
   width: 70px;
@@ -591,16 +582,50 @@ nav {
 }
 
 /*-----------------------------Contact-----------*/
-.contact-header {
-  color: #636b73;
+form {
+  background-color: #d3ced3;
+  border-radius: 0.8rem;
 }
 
 .form-width {
   width: 100%;
 }
 
+.contact-header {
+  font-size: 4rem;
+}
+
+legend {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  font-weight: 500;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.form-icon {
+  font-size: 1rem; 
+  margin: 0;
+  border-radius: 5% 0 0 5%;
+}
+
+.form-control {
+  height: auto;
+  border-radius: 0 5% 5% 0;
+}
+
+.asteriks {
+  font-weight: 800;
+  color:#901257;
+}
+
 .contact-sub {
-  font-size: 3.5rem;
+  font-size: 0.9rem;
+  color: #636b73;
 }
 
 .contact-email-link {
@@ -623,19 +648,26 @@ button[type="submit"] {
   margin-bottom: 20px;
   color: #fafafa;
   background-color: #c2649a;
+  float: left;
+  margin-left: 1rem;
 }
 
-div .fa-paper-plane {
-  font-size: 2.5rem;
-  text-align: center;
-  color: #c2649a;
+button[type="submit"]:hover{
+  background-color:#a35581;
+  color: #f1f1f1;
+}
+.submit-icon {
+  background: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: inherit;
 }
 
 .form-control:focus {
   border: 3px solid #c2649a;
   -webkit-box-shadow: none;
-          box-shadow: none;
-  outline: 0 !important;
+  box-shadow: none;
+  outline: 0;
 }
 
 .alert-wrapper {
@@ -746,9 +778,6 @@ div .fa-paper-plane {
 
   .navbar-brand {
     margin-left: 0rem !important;
-  }
-  .form-width {
-    max-width: 85%;
   }
 
   .contact-img {
