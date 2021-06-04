@@ -842,6 +842,7 @@ button[type="submit"]:hover{
 @media (min-width: 1024px) {
   button[type="submit"]{
     width: 50%;
+  }
 }
 
 @media (min-width: 1200px) {
