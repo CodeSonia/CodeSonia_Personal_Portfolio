@@ -52,8 +52,8 @@ Throughout the development of CodeSonia I ensured that I kept the user in mind a
 [Back To Top](#CodeSonia)
 
 ## Strategy
+### Project goal: To get noticed 
 
-### Project goal: To get noticed
 
 The main goal for the website is to get noticed from its targeted users. Its users are recruiters (including tech & internal), developers, designers and start-ups.
 
@@ -427,13 +427,30 @@ I have tested my site on Safari, and Google Chrome and the website looks fine an
 [Back To Table of Contents](#table-of-contents)
 # Deployment
 
-I used GitHub pages to deploy my website. To do this:
+CodeSonia project was deployed to GitHub pages. In order to deploy a project onto GitHub, please view the following steps:
 
-1. Create a repository on GitHub and a project name/description. 
-2. Once this is done, there is an option to open this on GitPod by clicking on the green button. 
-3. Initialise your repo by using the git init command
-4. Add files to Git (staging area) and use the git add . command
-5. Use the git push command to push this 
+1. Log onto GitHub or create an account 
+
+![Log onto GitHub](assets/images/GitHub_login)
+
+2. Create a repository (repo) on GitHub and name your repo with a project name and give it a description
+
+![Creating a repo](assets/images/creating_repo)
+
+3. Open your workspace (I use Gitpod)
+
+![Gitpod](assets/images/gitpod_button)
+
+4. Initialise your repo following the below commands
+`git init`
+- add files to Git (the staging area)
+`git add .`
+- We now want to write a concise commit message
+`git commit -m "git init"`
+
+5. Once your project is complete, you are now ready to deploy this onto GitHub pages.
+
+
 6. It will now ask for your GitHub credentials (enter this in the terminal). 
 7. Go to GitHub and load your repo
 8. Click on Settings 
