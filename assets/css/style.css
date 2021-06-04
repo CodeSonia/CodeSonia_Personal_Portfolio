@@ -801,11 +801,6 @@ button[type="submit"]:hover{
     margin-left: 0rem !important;
   }
 
-  .contact-img {
-    width: 109%;
-    height: 107%;
-  }
-
   .btn-std-style {
     font-weight: 500;
   }
@@ -817,6 +812,7 @@ button[type="submit"]:hover{
     margin-top: 1rem;
     margin-bottom: 0;
   }
+
   .name {
     font-size: 4rem;
   }
@@ -879,12 +875,7 @@ button[type="submit"]:hover{
   .about-height {
     height: 269px;
   }
-
-  .contact-img {
-    width: 98.5%;
-    height: 98.5%;
-  }
-
+  
   .btn-std-style {
     letter-spacing: 0.1rem;
   }
