@@ -431,15 +431,15 @@ CodeSonia project was deployed to GitHub pages. In order to deploy a project ont
 
 1. Log onto GitHub or create an account 
 
-![Log onto GitHub](assets/images/GitHub_login)
+![Log onto GitHub](/assets/images/GitHub_login.png)
 
 2. Create a repository (repo) on GitHub and name your repo with a project name and give it a description
 
-![Creating a repo](assets/images/creating_repo)
+![Creating a repo](/assets/images/creating_repo.png)
 
 3. Open your workspace (I use Gitpod)
 
-![Gitpod](assets/images/gitpod_button)
+![Gitpod](/assets/images/gitpod_button.png)
 
 4. Initialise your repo following the below commands
 `git init`
@@ -450,17 +450,34 @@ CodeSonia project was deployed to GitHub pages. In order to deploy a project ont
 
 5. Once your project is complete, you are now ready to deploy this onto GitHub pages.
 
+6. Scoll onto "settings"
+![GitHub Settings button](/assets/images/github_settings.png)
 
-6. It will now ask for your GitHub credentials (enter this in the terminal). 
-7. Go to GitHub and load your repo
-8. Click on Settings 
-9. Scroll down to GitHub Pages
-10. Click on master branch. 
-11. The page should now load and your website is now live! 
+7. On the left-hand side, find the "Pages" tab which looks like the following:
 
-I committed regularly throughout the project when I made a meaningful change. 
+![Gitpod Pages](/assets/images/github_pages.png)
 
-To run my code locally, users can clone this by clicking on the targeted repo, click 'clone or download' and 'download zip'. Or you could paste git clone git@github.com:CodeSonia/CodeSonia_Personal_Portfolio.git into the terminal and type git remote rm original to remove itself from the repo. 
+8. Now that you are on the Pages section, select "Master Branch" under the Source headings.
+
+![Gitpod](/assets/images/select_branch.png)
+
+9. The page will now automatically refresh. If not, give it 5 minutes. 
+
+10. Ta-da! Your page is now live! You have now successfully deployed your GitHub repository :) 
+
+![Gitpod](/assets/images/github_site_url.png)
+
+## Running Code Locally 
+
+To run my code locally, users can clone this by clicking on the targeted repo, click 'clone or download' and 'download zip'. Or you could paste git clone git@github.com:CodeSonia/CodeSonia_Personal_Portfolio.git into the terminal and type `git remote rm` original to remove itself from the repo.
+
+## Forking a GitHub Repo
+
+A "fork" enables you to generate a copy of a repo. Forking allows you to freely experiment with changes without affecting the original document. 
+
+You can easily "fork" a project by finding the repo, and click "fork".
+
+![Fork button on GitHub](/assets/images/fork_github.png)
 
 [Back To Deployment](#deployment)
 
