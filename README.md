@@ -15,6 +15,8 @@ A live website can be found [here](https://codesonia.github.io/CodeSonia_Persona
 
 Take a read below, and see why I have chosen to put in place certain features. 
 
+[Back To Top](#codesonia-portfolio)
+
 # Table of Contents
 - [UX](#ux)
   * [Strategy](#strategy)
@@ -45,6 +47,9 @@ Throughout the development of CodeSonia I ensured that I kept the user in mind a
 - Useable: when interacting with your product, it is also an enjoyable experience - it generates a positive emotional response.
 - Valuable: valuable to the user and the product owner. 
 
+[Back To Table of Contents](#table-of-contents)
+
+[Back To Top](#CodeSonia)
 
 ## Strategy
 
@@ -58,6 +63,10 @@ I approached my colleague, who is a tech recruiter to identify what are his expe
 
 This has led me to identify the goals and helped guide my project below.
 
+[Back To UX](#UX)
+
+[Back To Table of Contents](#table-of-contents)
+
 #### User goals:
 - Recruiters would want to hire the applicant or provide job opportunities.
 - Designers or developers would want to get in touch with me for collaboration on a project.
@@ -69,6 +78,10 @@ Users should have the ability to reach out to me, provided the contact informati
 To achieve this goal and to stand out amongst other developers, the online website will be more than a CV. As when the user is introduced to the site it should elicit a positive emotional response. This means finding the site intuitive, enjoyable and straightforward. Rather than telling prospective employers about CodeSonia's skills, CodeSonia bridges the knowledge gap by providing case examples of completed projects to showcase CodeSonia's skills.
 
 As well as this, my goal is to use the portfolio website to build a personal brand. But, as I have no commercial experience, this is not an essential priority. As I evolve and gain industry experience, I will be able to showcase my personality.
+
+[Back To UX](#UX)
+
+[Back To Table of Contents](#table-of-contents)
 
 #### User Expectations:
 The content should give me the necessary information about who is CodeSonia.
@@ -116,6 +129,10 @@ As a collaborator...
 - For start-ups or users who are looking to hire a contractor, they would want to see a different type of content, including blogs. 
 - I expect the user interface that is easy to use and not complex, where information is laid out logically so that I can easily digest the information provided.
 
+[Back To UX](#UX)
+
+[Back To Table of Contents](#table-of-contents)
+
 ### Strategy Table
 
 The strategy table illustrates the trade-off between importance and viability. As we move onto Scope soon, it is clear that this project requires different phases to implement the exhaustive list of features - it is an on-going process! 
@@ -147,6 +164,10 @@ Total| 76 | 54
 - Harburger menus -the menu can take users directly to where they want to go, increase the conversion rate (UX movement).
 - Card design - individual cards so a user can easily bite-sized pieces of content without being overwhelmed. Makes the page feeling cleaner and organised without relying on text.
 - White space - minimalism design, helps users navigate around the site, from one element to another, it also creates a visual hierarchy.
+
+[Back To UX](#UX)
+
+[Back To Table of Contents](#table-of-contents)
 
 ## Scope
 
@@ -181,6 +202,10 @@ Please find below the planned releases:
 
 What is great about having an MVP and planned releases means that I can create a 'WOW' effect. As I unfold new features, it means there are new user experiences for the future. This means I will be surprising users with incremental changes that have value! 
 
+[Back To Scope](#Scope)
+
+[Back To Table of Contents](#table-of-contents)
+
 ## Structure
 
 I decided to incorporate interaction design to leverage a user's prior experience:
@@ -193,6 +218,10 @@ I decided to incorporate interaction design to leverage a user's prior experienc
 - Visual elements will be consistent, i.e. colour scheme, imagery, icons, buttons.
 
 Information architecture refers to helping users understand their surroundings and find what they're looking for. The structure of the website allows users to know where we are. At Phase 1, a one-page scrollable feature works best. Looking at website trends also helped with this decision. A fixed navbar at the top will allow users to find their way around easily. As I evolve, as mentioned in Phase 2, I will develop multiple pages as content will become lengthier.
+
+[Back To Structure](#structure)
+
+[Back To Table of Contents](#table-of-contents)
 
 ## Skeleton
 
@@ -208,6 +237,9 @@ You will notice there are some differences to the actual website. For example, t
 
 There are many other differences, but I believe once you try an idea out and it does not work out, there is no harm to change your idea and start thinking of new ways. 
 
+[Back To Skeleton](#Skeleton)
+
+[Back To Table of Contents](#table-of-contents)
 ## Surface 
 
 ### Colours 
@@ -235,6 +267,10 @@ Please find my colour schemes [here](colors/colour_schemes.pdf). Please also not
 
 ### Typography
 I chose to use one font and that is Roboto and used in different ways through styles and letter spacing. 
+
+[Back To Surface](#surface)
+
+[Back To Table of Contents](#table-of-contents)
 
 # Features
 
@@ -297,6 +333,9 @@ Shadow - cards on about and portfolio have a shadow effect. This is to help crea
 #### General maintenance
 - CodeSonia should always remain consistent, relevant and provide accurate information. For this reason, every year, the website will be updated with new information. 
 
+[Back To Features](#features)
+
+[Back To Table of Contents](#table-of-contents)
 
 ## Technologies Used
 
@@ -339,6 +378,9 @@ Shadow - cards on about and portfolio have a shadow effect. This is to help crea
 - [Grammarly](https://app.grammarly.com/)
     - used to rectify any grammar errors. 
 
+[Back To Technologies](#technologies)
+
+[Back To Table of Contents](#table-of-contents)
 
 # Testing
 
@@ -380,6 +422,9 @@ I have tested my site on Safari, and Google Chrome and the website looks fine an
 - Macbook Pro
 - iPad 
 
+[Back To Testing](#testing)
+
+[Back To Table of Contents](#table-of-contents)
 # Deployment
 
 I used GitHub pages to deploy my website. To do this:
@@ -400,6 +445,9 @@ I committed regularly throughout the project when I made a meaningful change.
 
 To run my code locally, users can clone this by clicking on the targeted repo, click 'clone or download' and 'download zip'. Or you could paste git clone git@github.com:CodeSonia/CodeSonia_Personal_Portfolio.git into the terminal and type git remote rm original to remove itself from the repo. 
 
+[Back To Deployment](#deployment)
+
+[Back To Table of Contents](#table-of-contents)
 # Credits
 - Flip animation: [Nooray Yemon](https://codepen.io/yemon/pen/pWoROm)
 - Animated hamburger icon: [MDBootstrap](https://mdbootstrap.com/snippets/jquery/mdbootstrap/911054)
@@ -426,11 +474,13 @@ I would like to give special thanks to:
 - My partner for being supportive during the weird pandemic period and helping me when I ran into the read more button bug. 
 - Last, but not least, my family for supporting me when I ran into a problem/bug. Then cheered me on for fixing it! 
 
-##### Reflection 
+[Back To Credits](#credits)
 
-I started this project with no experience in coding. So it was expected that I would run into a lot of issues. When I created my repo and launched it onto GitPod, I instantly ran into a problem. My CSS styles were not making any changes, but soon realised it was just a cache issue. Moving along, I enjoyed working on this project. It was fun to utilise my creative flair and Affinity Photo and Designer skills to inject personality to this project. I wanted to 'wow' the users by incorporating fun features, like hover effects, flip animation and animated hamburger icon. I worked hard on this to illustrate my passion and genuine interest in web development. I will be using this project as my real-life portfolio when I graduate.
+[Back To Table of Contents](#table-of-contents)
 
 Thank you for taking the time to read my project. 
+
+[Back To Top](#codesonia-portfolio)
 
 
 
