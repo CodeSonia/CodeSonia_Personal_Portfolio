@@ -728,6 +728,10 @@ button[type="submit"]:hover{
   text-transform: uppercase;
 }
 
+.cv-icon {
+  font-size: 1rem;
+}
+
 /*------------------ Media Queries ----------*/
 @media (min-width: 320px) {
   .progress {
