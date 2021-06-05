@@ -21,12 +21,12 @@ Take a read below, and see why I have chosen to put in place certain features.
 - [UX](#ux)
   * [Strategy](#strategy)
     + [Project goal: To get noticed](#project-goal--to-get-noticed)
-      - [User Goals:](#user-goals-)
+      - [User Goals:](#user-goals)
       - [User Values:](#user-values)
-      - [User Expectations:](#user-expectations-)
-      - [User Stories:](#user-stories-)
+      - [User Expectations:](#user-expectations)
+      - [User Stories:](#user-stories)
       - [Strategy Table](#strategy-table)
-      - [Trends of modern websites:](#trends-of-modern-websites-)
+      - [Trends of modern websites:](#trends-of-modern-websites)
   * [Scope](#scope)
   * [Structure](#structure)
   * [Skeleton](#skeleton)
@@ -546,10 +546,9 @@ Some elements of my project had a low contrast, although when I checked on Googl
 ### Manual Testing 
 
 #### User Stories 
-- Please view it [here](assets/testing/testing_user_stories.pdf)
+- Please view a step-by-step user stories[here](assets/testing/testing_user_stories.pdf)
 
-I carried out manual testing on the finalised development of CodeSonia. Click [here](/assets/testing/testing.md) for a report which tested the functionality, usability and responsiveness.
-
+s
 I have tested my site on Safari, and Google Chrome and the website looks fine and works as intended. I have also tested on the following devices:
 - iPhone X
 - iPhone XR
