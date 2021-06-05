@@ -238,7 +238,8 @@ Information architecture refers to helping users understand their surroundings a
 I used [Balsamiq](https://balsamiq.com/) to create wireframes for multiple devices. It was important at this stage to hammer down the layout and positioning of the project as informed by the above planes.
 
 Please find below links to view the wireframes:
-- [Mobile](/assets/wireframes/mobile_wireframes/pdf)
+
+- [Mobile](/assets/wireframes/mobile_wireframes.pdf)
 - [Tablet](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/tablet_wireframes.pdf)
 - [Desktop](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/desktop_wireframes.pdf)
 
@@ -246,7 +247,8 @@ Please find below links to view the wireframes:
 
 ## Mobile:
 <details><summary></summary>
-- [Mobile Homepage & About Wireframe] (/assets/wireframes/png_format/mobile_homepage_about_wireframe.png)
+![Mobile Homepage & About Wireframe](/assets/wireframes/png_format/mobile_homepage_about_wireframes.png)
+
 - [Mobile Homepage & About Wireframe] (/assets/wireframes/png_format/mobile_skills_wireframe.png)
 - [Mobile Homepage & About Wireframe] /(assets/wireframes/png_format/mobile_portfolio_wireframe.png)
 - [Mobile Homepage & About Wireframe] (/assets/wireframes/png_format/mobile_education_wireframe.png)
