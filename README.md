@@ -257,6 +257,19 @@ Please find below links to view the wireframes:
 ![Image of education & experience mobile wireframes](assets/wireframes/png_format/mobile_education_wireframe.png)
 
 ![Image of contact mobile wireframes](assets/wireframes/png_format/mobile_contact_wireframe.png)
+</details>
+
+## Tablet:
+<details><summary></summary>
+
+![Image of homepage tablet wireframe](assets/wireframes/png_format/tablet_homepage_about_wireframe.png)
+
+![Image of tech skills & portfolio tablet wireframes](assets/wireframes/png_format/tablet_skills_portfolio_wireframe.png)
+
+![Image of experience and education tablet wireframes](assets/wireframes/png_format/tablet_experience_education_wireframe.png)
+
+![Image of contact tablet wireframes](assets/wireframes/png_format/tablet_contact_wireframe.png)
+</details>
 
 [Back To Skeleton](#Skeleton)
 
