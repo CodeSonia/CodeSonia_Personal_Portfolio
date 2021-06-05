@@ -240,7 +240,7 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for multiple devic
 Please find below links to view the wireframes:
 
 - [Mobile](/assets/wireframes/mobile_wireframes.pdf)
-- [Tablet](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/tablet_wireframes.pdf)
+- [Tablet](/assets/wireframes/tablet_wireframes.pdf)
 - [Desktop](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/desktop_wireframes.pdf)
 
 **You can also find a snapshot of the wireframes below (select each drop-down icon to view)**
@@ -257,6 +257,10 @@ Please find below links to view the wireframes:
 ![Image of education & experience mobile wireframes](assets/wireframes/png_format/mobile_education_wireframe.png)
 
 ![Image of contact mobile wireframes](assets/wireframes/png_format/mobile_contact_wireframe.png)
+
+[Back To Skeleton](#Skeleton)
+
+[Back To Table of Contents](#table-of-contents)
 
 </details>
 
