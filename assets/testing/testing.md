@@ -91,7 +91,7 @@ _Please note, alot of the user stories overlap._
 
 **_As a recruiter/collaborator, I want to learn about the developer and who this person is beside the technical skills and view if they also have the right soft skills to assess if they can fit within the team._**
 
-![User Goal 1](assets/readme_images/user_goal_1.gif)
+![User Goal 1](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/user_goal_1.gif?raw=true)
 
 2. User Goal 2
 
