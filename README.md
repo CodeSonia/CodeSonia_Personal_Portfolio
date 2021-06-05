@@ -464,6 +464,8 @@ As well as this, the developer tool also has a responsive feature. It tells you 
 
 Also, I found there was an issue with my portfolio and skills section when I viewed my site on mobile. I realised the shadow effect by Bootstrap was causing my section to go beyond the container. I fixed this using media queries ensuring alignment was achieved. 
 
+
+
 #### Responsive Tools
 
 I used [Am I Responsive](http://ami.responsivedesign.is/) and [Responsinator](https://www.responsinator.com/) to ascertain if my site is responsive on all devices. As I do not carry multiple devices, these are a handy feature to help correct any alignment or issues. 
@@ -548,7 +550,8 @@ Some elements of my project had a low contrast, although when I checked on Googl
 #### User Stories 
 - Please view a step-by-step user stories[here](assets/testing/testing_user_stories.pdf)
 
-s
+I carried out manual testing on the finalised development of CodeSonia. Click [here](/assets/testing/testing.md) for a report which tested the functionality, usability and responsiveness.
+
 I have tested my site on Safari, and Google Chrome and the website looks fine and works as intended. I have also tested on the following devices:
 - iPhone X
 - iPhone XR
