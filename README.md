@@ -241,7 +241,7 @@ Please find below links to view the wireframes:
 
 - [Mobile](/assets/wireframes/mobile_wireframes.pdf)
 - [Tablet](/assets/wireframes/tablet_wireframes.pdf)
-- [Desktop](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/desktop_wireframes.pdf)
+- [Desktop](/assets/wireframes/desktop_wireframes.pdf)
 
 **You can also find a snapshot of the wireframes below (select each drop-down icon to view)**
 
@@ -275,6 +275,27 @@ Please find below links to view the wireframes:
 
 [Back To Table of Contents](#table-of-contents)
 
+## Desktop:
+<details><summary></summary>
+
+![Image of homepage desktop wireframe](assets/wireframes/png_format/desktop_homepage_wireframe.png)
+
+![Image of about desktop wireframe](assets/wireframes/png_format/desktop_about_wireframe.png)
+
+![Image of skills desktop wireframes](assets/wireframes/png_format/desktop_skills_wireframe.png)
+
+![Image of portfolio desktop wireframes](assets/wireframes/png_format/desktop_portfolio_wireframe.png)
+
+![Image of experience desktop wireframes](assets/wireframes/png_format/desktop_experience_wireframe.png)
+
+![Image of education desktop wireframes](assets/wireframes/png_format/desktop_education_wireframe.png)
+
+![Image of contact desktop wireframes](assets/wireframes/png_format/desktop_contact_wireframe.png)
+</details>
+
+[Back To Skeleton](#Skeleton)
+
+[Back To Table of Contents](#table-of-contents)
 </details>
 
 You will notice there are some differences to the actual website. For example, the home page no longer consists of a full size background image, instead it takes full width of a column. As you will see in my earlier commits, I did not like how the original idea turned out so I turned back to the drawing board. Which led me to utilise my design skills to create something more fun and unique. 
