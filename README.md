@@ -30,6 +30,9 @@ Take a read below, and see why I have chosen to put in place certain features.
   * [Scope](#scope)
   * [Structure](#structure)
   * [Skeleton](#skeleton)
+      - [Mobile Wireframe:](#mobile)
+      - [Tablet Wireframe:](#tablet)
+      - [Desktop Wireframe:](#desktop)
   * [Surface](#surface)
 - [Features](#features)
     + [Existing Features](#existing-features)
@@ -257,6 +260,10 @@ Please find below links to view the wireframes:
 ![Image of education & experience mobile wireframes](assets/wireframes/png_format/mobile_education_wireframe.png)
 
 ![Image of contact mobile wireframes](assets/wireframes/png_format/mobile_contact_wireframe.png)
+
+[Back To Skeleton](#Skeleton)
+
+[Back To Table of Contents](#table-of-contents)
 </details>
 
 ## Tablet:
@@ -269,11 +276,11 @@ Please find below links to view the wireframes:
 ![Image of experience and education tablet wireframes](assets/wireframes/png_format/tablet_experience_education_wireframe.png)
 
 ![Image of contact tablet wireframes](assets/wireframes/png_format/tablet_contact_wireframe.png)
-</details>
 
 [Back To Skeleton](#Skeleton)
 
 [Back To Table of Contents](#table-of-contents)
+</details>
 
 ## Desktop:
 <details><summary></summary>
@@ -291,7 +298,6 @@ Please find below links to view the wireframes:
 ![Image of education desktop wireframes](assets/wireframes/png_format/desktop_education_wireframe.png)
 
 ![Image of contact desktop wireframes](assets/wireframes/png_format/desktop_contact_wireframe.png)
-</details>
 
 [Back To Skeleton](#Skeleton)
 
@@ -468,10 +474,38 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) and [Responsinator](ht
 To help validate my HTML and CSS, I used W3C validator tools to ensure my code was clean. I regularly checked if my code was cleared from any errors after each section was created. 
 
 Here are a couple of errors flagged and rectified:
-- Element `<div>` not allowed as a child of element `<button>` in this context. I rectified this by replacing `<div>` with a `<span>`and gave it a property of display:block. 
+- Element `<div>` not allowed as a child of element `<button>` in this context. I rectified this by replacing `<div>` with a `<span>`and gave it a property of display:block. ```
 - Image elements must have an alt attribute. I rectified this by giving an alt attribute. I realised I need to get into the habit of adding this as soon as I add an image. I understand the importance for accessibility purposes. 
 - Section lacks heading. I used `<p>` tag and used Bootstrap's h4 class to style headings. I instead replaced the `<p>` and used `<h4>`. 
 - Element `<span>` not allowed as child of element `<ul>` in this context - this was referring to the education and experience section. I realised I was nesting my list items incorrectly. 
+
+## June 2021 Update:
+
+- An `img` element must have an alt attribute, except under certain conditions:
+  `<img src="assets/images/contact_sonia_laptop.png" class="img-size">`
+
+  **Solution**
+  - I added the missing alt tag to help screenreaders identify what the image is and/or as a back-up solution if the image fails to load
+
+- Bad value for attribute action on element `form`: Must be non-empty. 
+  `<form action="" method="POST">`
+
+  **Solution**
+  I rectified this issue by supplying a link to where the form data can be supplied to - I used code institute form dump. For now, contact form information data does not go anywhere. It is currently static.
+
+- Element `legend` not allowed as child element of `div` 
+
+  **Solution** 
+  I solved this by removing the div element that was originally nested inside legend. 
+
+- The valye of the `for` attribute of the `label` element must be the ID of a non-hidden form control
+
+  **Solution**
+  I resolved this issue by replacing the `for` attribute with the correct corresponding `id`
+
+[Back To Testing](#testing)
+
+[Back To Table of Contents](#table-of-contents)
 
 ### Manual Testing 
 
