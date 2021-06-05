@@ -247,7 +247,8 @@ Please find below links to view the wireframes:
 
 ## Mobile:
 <details><summary></summary>
-![Mobile Homepage & About Wireframe](/assets/wireframes/png_format/mobile_homepage_about_wireframe.png)
+![Mobile Homepage & About Wireframe](/workspace/CodeSonia_Personal_Portfolio/assets/wireframes/png_format/mobile_contact_wireframe.png)
+
 
 - [Mobile Homepage & About Wireframe] (/assets/wireframes/png_format/mobile_skills_wireframe.png)
 - [Mobile Homepage & About Wireframe] /(assets/wireframes/png_format/mobile_portfolio_wireframe.png)
