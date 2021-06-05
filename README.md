@@ -389,7 +389,6 @@ Shadow - cards on about and portfolio have a shadow effect. This is to help crea
 - Read more/less - I did not want to overwhelm users with a very long section. So I incorporated this feature so that users have the option to read more if they like. I also included some content before the button to entice users to learn more.
 
 #### Contact me
-- Status alert - I used Bootstrap alert and used flex to align it in the middle. I did this, so users are aware that I am available for hire or to work on a project. 
 - Image - I used Affinity Photo to help create my icon in work gear and format. 
 - Contact form - I incorporated a simple contact form with validations. It won't let you submit if you do not have the correct email address. Also, a pink border appears when you are on a form section. I did this, so users are aware of what part they are filling. 
 - Submit button - I incorporated a modal when a user submits their contact message. A modal then appears saying thanks for the message and say I will respond soon. 
@@ -481,6 +480,8 @@ Here are a couple of errors flagged and rectified:
 
 ## June 2021 Update:
 
+### W3C Validator Tools
+
 - An `img` element must have an alt attribute, except under certain conditions:
   `<img src="assets/images/contact_sonia_laptop.png" class="img-size">`
 
@@ -503,10 +504,45 @@ Here are a couple of errors flagged and rectified:
   **Solution**
   I resolved this issue by replacing the `for` attribute with the correct corresponding `id`
 
+Both my HTML & CSS passed the HTML & CSS Validation service without any further issues.
+
 [Back To Testing](#testing)
 
 [Back To Table of Contents](#table-of-contents)
 
+#### Wave Report/Accessibility Testing
+
+In order to improve my site accessibility, I ran an automated check with WAVE report. Please see the following bugs/errors I faced with and are now resolved:
+
+1. Empty Link - a link containing no text
+
+![Empty Link Image of social links](assets/readme_images/empty_link_social_buttons.png)
+
+![Empty Link Image of portfolio icons](assets/readme_images/portfolio_icons.png)
+
+![Empty Link Image of footer icons](assets/readme_images/footer_icons.png)
+
+
+  **Solution**
+  This error is important to resolve, as the function or purpose of the button will not be present to the screenreader user, therefore creating a negative experience. I updated the font awesome icons with a `aria-hidden="true">`. I then added a `<span class="sr-only">Search</span>`. This means the icons are now accessibility to screen reader users. I hid the font awesome icons so it won't be read by a screen reader.
+
+2. Contrase Issues
+
+Some elements of my project had a low contrast, although when I checked on Google Developer Tools, they seemed fine. However, I improved the contrast errors that were flagged on the Wave site, as I understand contrast of text is necessary for all users, especially users with low vision.
+
+  **Solution**
+  Resolved contrast errors flagged.
+
+3. Link to PDF document 
+
+  PDF documents generally have accessibility issues, and are typically viewed using a separate application or plug-in, and can thus cause confusion and navigation difficulties.
+
+  **Solution** 
+  I resolved this error by adding an aria-label to help identify the PDF to all users.
+
+[Back To Testing](#testing)
+
+[Back To Table of Contents](#table-of-contents)
 ### Manual Testing 
 
 #### User Stories 
