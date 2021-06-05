@@ -97,7 +97,7 @@ _Please note, alot of the user stories overlap._
 
 **_As a recruiter/collaborator, I expect to be able to quickly get in contact via an easy to use contact form so that I can build a relationship or present any job opportunities at hand._**
 
-![User Goal 1](assets/readme_images/user_goal_2.gif)
+![User Goal 1](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/user_goal_2.gif?raw=true)
 
 3. User Goal 3
 
@@ -105,32 +105,32 @@ _Please note, alot of the user stories overlap._
 
   - Users are able to view the social media links once they visit the landing page
 
-![User Goal 3 - social media icons](assets/readme_images/homepage_social_buttons.png)
+![User Goal 3 - social media icons](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/homepage_social_buttons.png?raw=true)
 
   - Once a user clicks on the button or hovers over, the color/state changes to provide feedback
 
-  ![User Goal 3 - button feedback](assets/readme_images/button_feedback.png)
+  ![User Goal 3 - button feedback](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/button_feedback.png?raw=true)
 
   -Once clicked, users will be directed to an external link
 
-  ![User Goal 3 - button feedback](assets/readme_images/external_link.png)
+  ![User Goal 3 - button feedback](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/external_link.png?raw=true)
 
   -Users are able to quickly view LinkedIn
-   ![User Goal 3 - LinkedIn](assets/readme_images/user_goal_3_linkedin.gif)
+   ![User Goal 3 - LinkedIn](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/user_goal_3_linkedin.gif?raw=true)
 
 4. User Goal 4
 
 **_As a recruiter/collaborator, I want to access CodeSonia's background and work history and overview of CodeSonia's competencies, technical & soft skills._**
 
-![User Goal 4](assets/readme_images/user_goal_4.gif)
+![User Goal 4](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/user_goal_4.gif?raw=true)
 
 5. User Goal 5
 
 **_As a recruiter/collaborator, I want to see a word or PDF format of the CV so that I can assess the candidate's work history and skills to ascertain if they are the right person for the job and pass their details and link the portfolio to my clients._**
 
-![User Goal 5 - download CV button](assets/readme_images/user_goal_5_downloadcv.png)
+![User Goal 5 - download CV button](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/user_goal_5_downloadcv.png?raw=true)
 
-![User Goal 5 - CV external](assets/readme_images/user_goal_5_cv.png)
+![User Goal 5 - CV external](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/user_goal_5_cv.png?raw=true)
 
 6. User Goal 6
 
@@ -138,11 +138,11 @@ _Please note, alot of the user stories overlap._
 
   The logo and main image brings CodeSonia to life and provides distinguish branding:
 
-![User Goal 6 - Logo & homepage](assets/readme_images/logo_main_image_humanise.png)
+![User Goal 6 - Logo & homepage](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/logo_main_image_humanise.png?raw=true)
 
   The contact image humanises CodeSonia by showing her in a work environment 
 
-  ![User Goal 6 - contact](assets/readme_images/contact_humanise.png)
+  ![User Goal 6 - contact](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/contact_humanise.png?raw=true)
 
 7. User Goal 7
 
@@ -150,7 +150,7 @@ _Please note, alot of the user stories overlap._
 
 Users are able to navigate easily using the hamburger icon/navigation as well as identifying each section with clear headings:
 
-![User Goal 7](assets/readme_images/user_goal_7.gif)
+![User Goal 7](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/readme_images/user_goal_7.gif?raw=true)
 
 
 ### Responsiveness
