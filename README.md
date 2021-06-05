@@ -548,6 +548,8 @@ Some elements of my project had a low contrast, although when I checked on Googl
 #### User Stories 
 - Please view it [here](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/assets/testing_user_stories.pdf)
 
+I carried out manual testing on the finalised development of CodeSonia. Click [here](/assets/testing/testing.md) for a report which tested the functionality, usability and responsiveness.
+
 I have tested my site on Safari, and Google Chrome and the website looks fine and works as intended. I have also tested on the following devices:
 - iPhone X
 - iPhone XR
