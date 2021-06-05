@@ -21,7 +21,8 @@ Take a read below, and see why I have chosen to put in place certain features.
 - [UX](#ux)
   * [Strategy](#strategy)
     + [Project goal: To get noticed](#project-goal--to-get-noticed)
-      - [User goals:](#user-goals-)
+      - [User Goals:](#user-goals-)
+      - [User Values:](#user-values)
       - [User Expectations:](#user-expectations-)
       - [User Stories:](#user-stories-)
       - [Strategy Table](#strategy-table)
@@ -67,7 +68,16 @@ This has led me to identify the goals and helped guide my project below.
 
 [Back To Table of Contents](#table-of-contents)
 
-#### User goals:
+#### User Values:
+1. Help users achieve their goals
+  - Learn about CodeSonia
+2. Help advance CodeSonia's (product owner) goals
+
+[Back To UX](#UX)
+
+[Back To Table of Contents](#table-of-contents)
+
+#### User Goals:
 - Recruiters would want to hire the applicant or provide job opportunities.
 - Designers or developers would want to get in touch with me for collaboration on a project.
 - Start-ups are growing so they would be looking to find someone who can help raise their business by building an app or website. 
@@ -228,10 +238,21 @@ Information architecture refers to helping users understand their surroundings a
 I used [Balsamiq](https://balsamiq.com/) to create wireframes for multiple devices. It was important at this stage to hammer down the layout and positioning of the project as informed by the above planes.
 
 Please find below links to view the wireframes:
-
-- [Desktop](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/desktop_wireframes.pdf)
-- [Tablet](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/tablet_wireframes.pdf)
 - [Mobile](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/mobile_wireframes.pdf)
+- [Tablet](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/tablet_wireframes.pdf)
+- [Desktop](https://github.com/CodeSonia/CodeSonia_Personal_Portfolio/blob/master/wireframes/desktop_wireframes.pdf)
+
+**You can also find a snapshot of the wireframes below (select each drop-down icon to view)**
+
+## Mobile:
+<details><summary></summary>
+- [Mobile Homepage & About Wireframe] (assets/wireframes/png_format/mobile_homepage_about_wireframe.png)
+- [Mobile Homepage & About Wireframe] (assets/wireframes/png_format/mobile_skills_wireframe.png)
+- [Mobile Homepage & About Wireframe] (assets/wireframes/png_format/mobile_portfolio_wireframe.png)
+- [Mobile Homepage & About Wireframe] (assets/wireframes/png_format/mobile_education_wireframe.png)
+- [Mobile Homepage & About Wireframe] (assets/wireframes/png_format/mobile_contact_wireframe.png)
+
+</details>
 
 You will notice there are some differences to the actual website. For example, the home page no longer consists of a full size background image, instead it takes full width of a column. As you will see in my earlier commits, I did not like how the original idea turned out so I turned back to the drawing board. Which led me to utilise my design skills to create something more fun and unique. 
 
@@ -431,15 +452,15 @@ CodeSonia project was deployed to GitHub pages. In order to deploy a project ont
 
 1. Log onto GitHub or create an account 
 
-![Log onto GitHub](/assets/images/GitHub_login.png)
+![Log onto GitHub](/assets/readme_images/gitHub_login.png)
 
 2. Create a repository (repo) on GitHub and name your repo with a project name and give it a description
 
-![Creating a repo](/assets/images/creating_repo.png)
+![Creating a repo](/assets/readme_images/creating_repo.png)
 
 3. Open your workspace (I use Gitpod)
 
-![Gitpod](/assets/images/gitpod_button.png)
+![Gitpod](/assets/readme_images/gitpod_button.png)
 
 4. Initialise your repo following the below commands
 `git init`
@@ -451,21 +472,21 @@ CodeSonia project was deployed to GitHub pages. In order to deploy a project ont
 5. Once your project is complete, you are now ready to deploy this onto GitHub pages.
 
 6. Scoll onto "settings"
-![GitHub Settings button](/assets/images/github_settings.png)
+![GitHub Settings button](/assets/readme_images/github_settings.png)
 
 7. On the left-hand side, find the "Pages" tab which looks like the following:
 
-![Gitpod Pages](/assets/images/github_pages.png)
+![Gitpod Pages](/assets/readme_images/github_pages.png)
 
 8. Now that you are on the Pages section, select "Master Branch" under the Source headings.
 
-![Gitpod](/assets/images/select_branch.png)
+![Gitpod](/assets/readme_images/select_branch.png)
 
 9. The page will now automatically refresh. If not, give it 5 minutes. 
 
 10. Ta-da! Your page is now live! You have now successfully deployed your GitHub repository :) 
 
-![Gitpod](/assets/images/github_site_url.png)
+![Gitpod](/assets/readme_images/github_site_url.png)
 
 ## Running Code Locally 
 
